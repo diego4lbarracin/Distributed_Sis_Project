@@ -1,52 +1,55 @@
-const express = require('express');
-const app = express();
-const PORT = 3000;
+const zmq = require('zeromq');
+const sock = new zmq.Reply();
 
-// Middleware para procesar JSON
-app.use(express.json());
-
-// Simulador de taxis disponibles
-let taxisDisponibles = [
-    { id: 1, x: 2, y: 3 },
-    { id: 2, x: 5, y: 7 },
-    { id: 3, x: 8, y: 1 },
+const taxis = [
+    { id: 1, x: 0, y: 0, libre: true },
+    { id: 2, x: 5, y: 5, libre: true },
+    // Puedes agregar más taxis con posiciones iniciales
 ];
 
-// Ruta para recibir solicitud de taxi del usuario
-app.post('/solicitar-taxi', (req, res) => {
-    const { userId, userX, userY } = req.body;
+async function iniciarServidor() {
+    await sock.bind("tcp://*:3000");
+    console.log("Servidor central escuchando en el puerto 3000...");
 
-    console.log(`Usuario ${userId} solicitó un taxi desde (${userX}, ${userY})`);
+    for await (const [msg] of sock) {
+        const { userId, userX, userY } = JSON.parse(msg.toString());
 
-    // Simulación de asignación de taxi más cercano
-    let taxiAsignado = null;
-    let menorDistancia = Infinity;
+        console.log(`Solicitud recibida de usuario ${userId} en (${userX}, ${userY})`);
 
-    taxisDisponibles.forEach(taxi => {
-        const distancia = Math.abs(taxi.x - userX) + Math.abs(taxi.y - userY);
-        if (distancia < menorDistancia) {
-            menorDistancia = distancia;
-            taxiAsignado = taxi;
+        // Buscar taxi disponible más cercano
+        let taxiAsignado = null;
+        let distanciaMinima = Infinity;
+
+        taxis.forEach((taxi) => {
+            if (taxi.libre) {
+                const distancia = Math.abs(taxi.x - userX) + Math.abs(taxi.y - userY);
+                if (distancia < distanciaMinima) {
+                    distanciaMinima = distancia;
+                    taxiAsignado = taxi;
+                }
+            }
+        });
+
+        if (taxiAsignado) {
+            taxiAsignado.libre = false; // Marcar el taxi como ocupado
+            console.log(`Taxi ${taxiAsignado.id} asignado al usuario ${userId}`);
+
+            // Responder al usuario con los detalles del taxi asignado
+            await sock.send(JSON.stringify({
+                success: true,
+                taxiId: taxiAsignado.id,
+                distancia: distanciaMinima
+            }));
+        } else {
+            console.log(`No hay taxis disponibles para el usuario ${userId}`);
+            
+            // Responder con un mensaje de rechazo
+            await sock.send(JSON.stringify({
+                success: false,
+                message: "No hay taxis disponibles en este momento."
+            }));
         }
-    });
-
-    // Si encuentra un taxi disponible
-    if (taxiAsignado) {
-        res.json({
-            success: true,
-            message: `Taxi asignado: ${taxiAsignado.id}`,
-            taxiId: taxiAsignado.id,
-            distancia: menorDistancia
-        });
-    } else {
-        res.json({
-            success: false,
-            message: "No hay taxis disponibles"
-        });
     }
-});
+}
 
-// Iniciar el servidor
-app.listen(PORT, () => {
-    console.log(`Servidor ejecutándose en http://localhost:${PORT}`);
-});
+iniciarServidor().catch(error => console.error("Error en el servidor:", error));

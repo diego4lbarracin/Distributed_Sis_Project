@@ -1,0 +1,5 @@
+Usuario:
+node generadorUsuarios.js 8 10 10 10 coordenadas.txt
+
+Servidor:
+node server.js
