@@ -9,7 +9,7 @@ const [id, x, y, speed, numberOfServices, N, M, available, port] = process.argv
 
 let currentX = x;
 let currentY = y;
-let isAvailable = available; // Ensure isAvailable is set to the parsed value
+let isAvailable = available === true;
 let servicesLeft = numberOfServices;
 
 // Create a ZeroMQ Publish socket

@@ -22,6 +22,9 @@ async function iniciarServidor() {
   console.log(
     "Servidor escuchando notificaciones de taxis en el puerto 6000..."
   );
+
+  // Subscribe to the taxi data topic
+  subscriber.subscribe("taxiData");
 }
 
 // Handle incoming taxi data
@@ -47,6 +50,7 @@ async function handleTaxiData() {
         numberOfServices: taxiData.numberOfServices,
       });
     }
+    console.log(`Estado actual de los taxis: ${JSON.stringify(taxis)}`);
   }
 }
 
@@ -58,13 +62,17 @@ async function handleUserRequests() {
     console.log(
       `Solicitud recibida de usuario ${userId} en (${userX}, ${userY})`
     );
+    console.log(
+      `Estado actual de los taxis antes de asignar: ${JSON.stringify(taxis)}`
+    );
 
     // Buscar taxi disponible más cercano
     let taxiAsignado = null;
     let distanciaMinima = Infinity;
 
     taxis.forEach((taxi) => {
-      if (taxi.libre) {
+      if (taxi.libre === 1) {
+        // Check if the taxi is available
         const distancia = Math.abs(taxi.x - userX) + Math.abs(taxi.y - userY);
         if (
           distancia < distanciaMinima ||
@@ -78,7 +86,7 @@ async function handleUserRequests() {
     });
 
     if (taxiAsignado) {
-      taxiAsignado.libre = false; // Marcar el taxi como ocupado
+      taxiAsignado.libre = 0; // Marcar el taxi como ocupado
       console.log(`Taxi ${taxiAsignado.id} asignado al usuario ${userId}`);
 
       // Send notification to the assigned taxi
