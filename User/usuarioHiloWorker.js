@@ -17,8 +17,8 @@ console.error = console.log;
 // Function to request a taxi for a user
 async function solicitarTaxi(userId, x, y) {
   const sock = new zmq.Request(); // Create a new ZeroMQ request socket
-  sock.connect("tcp://localhost:3000"); // Connect to the server at localhost on port 3000
-
+  sock.connect("tcp://10.43.100.93:3000"); // Connect to the server at localhost on port 300
+  
   console.log(
     `Thread: ${threadId} - User ${userId} requesting a taxi from: (${x}, ${y})...`
   );

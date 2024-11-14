@@ -22,19 +22,19 @@ const taxis = [];
 // Function to start the server
 async function iniciarServidor() {
   // Bind the Reply socket to port 3000 to listen for user requests
-  await sock.bind("tcp://*:3000");
+  await sock.bind("tcp://10.43.100.93:3000");
   console.log(
     "Server listening to user's requests and replying on port 3000 (Request-Reply)"
   );
 
   // Bind the Publisher socket to port 5000 for sending notifications
-  await publisher.bind("tcp://*:5000");
+  await publisher.bind("tcp://10.43.100.93:5000");
   console.log(
     "Server publishing taxis' information updates on port 5000 (Publisher-Subscriber)"
   );
 
   // Bind the notification socket to port 6000 for receiving taxi port notifications
-  await notificationSock.bind("tcp://*:6000");
+  await notificationSock.bind("tcp://10.43.100.93:6000");
   console.log(
     "Server listening to taxi's information (taxi ID and port) and replying on port 6000 (Request-Reply)"
   );
@@ -154,7 +154,7 @@ async function handleTaxiNotifications() {
     console.log(`Notification received: Taxi ${id} on ${port}`);
 
     // Connect the Subscriber socket to the taxi's port
-    subscriber.connect(`tcp://localhost:${port}`);
+    subscriber.connect(`tcp://10.43.100.93:${port}`);
     subscriber.subscribe("taxiData");
 
     // Send acknowledgment

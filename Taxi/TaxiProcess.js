@@ -22,14 +22,13 @@ const [id, x, y, speed, numberOfServices, N, M, available, port] = process.argv
 let currentX = x;
 let currentY = y;
 let isAvailable = true;
-let servicesLeft = numberOfServices;
 
 // Create a ZeroMQ Publish socket
 const sock = new zmq.Publisher();
 
 // Create a ZeroMQ Subscriber socket to receive notifications
 const subscriber = new zmq.Subscriber();
-subscriber.connect("tcp://localhost:5000");
+subscriber.connect("tcp://10.43.100.93:5000");
 subscriber.subscribe("");
 
 // Function to update the taxi's position
@@ -105,12 +104,12 @@ async function handleAssignment(userId, userX, userY) {
 
 // Bind the socket and start sending data
 (async () => {
-  await sock.bind(`tcp://*:${port}`);
+  await sock.bind(`tcp://10.43.101.15:${port}`);
   console.log(`Taxi ${id} bound to port ${port}`);
 
   // Notify the server about the taxi's port
   const notificationSock = new zmq.Request();
-  await notificationSock.connect("tcp://localhost:6000");
+  await notificationSock.connect("tcp://10.43.100.93:6000");
   await notificationSock.send(JSON.stringify({ id, port }));
   await notificationSock.close();
   // Send initial data
