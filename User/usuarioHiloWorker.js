@@ -1,9 +1,7 @@
-// Import required modules from worker_threads and zeromq
 const { parentPort, workerData, threadId } = require("worker_threads");
 const zmq = require("zeromq");
 const fs = require("fs");
-// Redirect console output to a file
-// Make sure to delete the file before running the program
+
 const logFile = fs.createWriteStream("UsersRecords.txt", { flags: "a" });
 const logStdout = process.stdout;
 
@@ -14,51 +12,59 @@ console.log = function (message) {
 
 console.error = console.log;
 
+let serverIP = "10.43.100.93";
+let serverPort = 3000;
+
+// Create a Subscriber to listen for redirection notifications
+const subscriber = new zmq.Subscriber();
+subscriber.connect("tcp://10.43.100.93:5000"); // Connect to the main server's publisher
+subscriber.subscribe(""); // Subscribe to all messages
+
+subscriber.on("message", (topic, message) => {
+  const data = JSON.parse(message.toString());
+  if (data.redirect) {
+    serverIP = data.newServerIP;
+    serverPort = data.userPort;
+    console.log(`User ${workerData.userId} redirected to new server: ${serverIP}:${serverPort}`);
+  }
+});
+
 // Function to request a taxi for a user
-async function solicitarTaxi(userId, x, y) {
-  const sock = new zmq.Request(); // Create a new ZeroMQ request socket
-  sock.connect("tcp://10.43.100.93:3000"); // Connect to the server at localhost on port 300
+async function requestTaxi(userId, x, y) {
+  const sock = new zmq.Request();
+  sock.connect(`tcp://${serverIP}:${serverPort}`);
   
-  console.log(
-    `Thread: ${threadId} - User ${userId} requesting a taxi from: (${x}, ${y})...`
-  );
-  const startTime = Date.now(); // Record the start time of the request
-  await sock.send(JSON.stringify({ userId, userX: x, userY: y })); // Send the user data to the server
-  const [result] = await sock.receive(); // Wait for the server's response
-  const data = JSON.parse(result); // Parse the server's response
-  const responseTime = Date.now() - startTime; // Calculate the response time
-  sock.close(); // Close the socket
-  return { data, responseTime }; // Return the server's response and the response time
+  console.log(`Thread: ${threadId} - User ${userId} requesting a taxi from: (${x}, ${y})...`);
+  const startTime = Date.now();
+  await sock.send(JSON.stringify({ userId, userX: x, userY: y }));
+  const [result] = await sock.receive();
+  const data = JSON.parse(result);
+  const responseTime = Date.now() - startTime;
+  sock.close();
+  
+  return { data, responseTime };
 }
 
-// Function to execute the user's actions
-async function ejecutarUsuario() {
-  const { userId, x, y, tiempoEspera } = workerData; // Extract user data from workerData
+async function executeUser() {
+  const { userId, x, y, tiempoEspera } = workerData;
 
-  console.log(
-    `Thread: ${threadId} - User ${userId} waiting ${tiempoEspera} seconds before requesting a taxi.`
-  );
-  await new Promise((resolve) => setTimeout(resolve, tiempoEspera * 1000)); // Wait for the specified time before requesting a taxi
+  console.log(`Thread: ${threadId} - User ${userId} waiting ${tiempoEspera} seconds before requesting a taxi.`);
+  await new Promise((resolve) => setTimeout(resolve, tiempoEspera * 1000));
 
   try {
-    const { data: respuesta, responseTime } = await solicitarTaxi(userId, x, y); // Request a taxi and get the response
-    if (respuesta.success) {
-      console.log(
-        `Thread: ${threadId} - User ${userId} has received a taxi with id ${respuesta.taxiId}. Distance: ${respuesta.distancia} km. Server's response time: ${responseTime} ms`
-      );
+    const { data: response, responseTime } = await requestTaxi(userId, x, y);
+    if (response.success) {
+      console.log(`Thread: ${threadId} - User ${userId} received taxi ${response.taxiId}. Distance: ${response.distance} km. Server response time: ${responseTime} ms`);
     } else {
-      console.log(
-        `Thread: ${threadId} - User ${userId} couldn't receive a taxi: ${respuesta.message}`
-      );
+      console.log(`Thread: ${threadId} - User ${userId} could not receive a taxi: ${response.message}`);
     }
   } catch (error) {
-    console.error(`Error in the user's ${userId} request:`, error); // Log any errors
+    console.error(`Error in user ${userId}'s request:`, error);
   } finally {
-    // Notify that the user's task is complete
-    parentPort.postMessage({ userId, completado: true });
-    process.exit(0); // Terminate the worker thread
+    parentPort.postMessage({ userId, completed: true });
+    process.exit(0);
   }
 }
 
 // Execute the user's actions
-ejecutarUsuario();
+executeUser();
