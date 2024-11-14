@@ -47,7 +47,7 @@ async function iniciarServidor() {
 async function handleTaxiData() {
   for await (const [topic, msg] of subscriber) {
     const taxiData = JSON.parse(msg.toString());
-    // console.log(Datos recibidos del taxi: ${JSON.stringify(taxiData)});
+    // console.log(`Datos recibidos del taxi: ${JSON.stringify(taxiData)}`);
 
     // Update the taxi information in the taxis array
     let taxi = taxis.find((t) => t.id === taxiData.id);
@@ -70,11 +70,11 @@ async function handleTaxiData() {
 
     if (taxi) {
       console.log(
-        Current Taxi State = ID: ${taxi.id}, POS X: ${taxi.x}, POS Y: ${taxi.y}, AVAILABILITY: ${taxi.libre}, SERVICES: ${taxi.numberOfServices}
+        `Current Taxi State = ID: ${taxi.id}, POS X: ${taxi.x}, POS Y: ${taxi.y}, AVAILABILITY: ${taxi.libre}, SERVICES: ${taxi.numberOfServices}`
       ); // Print the updated taxi information
     } else {
       console.log(
-        Taxi data could not be processed: ${JSON.stringify(taxiData)}
+        `Taxi data could not be processed: ${JSON.stringify(taxiData)}`
       );
     }
   }
@@ -86,10 +86,10 @@ async function handleUserRequests() {
     const { userId, userX, userY } = JSON.parse(msg.toString());
 
     console.log(
-      Request obtained by the user ${userId} at (${userX}, ${userY})
+      `Request obtained by the user ${userId} at (${userX}, ${userY})`
     );
     // console.log(
-    //   Estado actual de los taxis antes de asignar: ${JSON.stringify(taxis)}
+    //   `Estado actual de los taxis antes de asignar: ${JSON.stringify(taxis)}`
     // );
 
     // Buscar taxi disponible más cercano
@@ -113,7 +113,7 @@ async function handleUserRequests() {
 
     if (taxiAsignado) {
       taxiAsignado.libre = 0; // Marcar el taxi como ocupado
-      console.log(Taxi ${taxiAsignado.id} assigned to the user ${userId}.);
+      console.log(`Taxi ${taxiAsignado.id} assigned to the user ${userId}.`);
 
       // Send notification to the assigned taxi
       await publisher.send(
@@ -134,7 +134,7 @@ async function handleUserRequests() {
         })
       );
     } else {
-      console.log(There are not taxis availble for the user: ${userId}.);
+      console.log(`There are not taxis availble for the user: ${userId}.`);
 
       // Responder con un mensaje de rechazo
       await sock.send(
@@ -151,10 +151,10 @@ async function handleUserRequests() {
 async function handleTaxiNotifications() {
   for await (const [msg] of notificationSock) {
     const { id, port } = JSON.parse(msg.toString());
-    console.log(Notification received: Taxi ${id} on ${port});
+    console.log(`Notification received: Taxi ${id} on ${port}`);
 
     // Connect the Subscriber socket to the taxi's port
-    subscriber.connect(tcp://10.43.101.15:${port});
+    subscriber.connect(`tcp://10.43.101.15:${port}`);
     subscriber.subscribe("taxiData");
 
     // Send acknowledgment
