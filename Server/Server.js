@@ -14,7 +14,7 @@ async function iniciarServidor() {
   console.log("Servidor central escuchando en el puerto 3000...");
 
   // Bind the Publisher socket to port 5000 for sending notifications
-  await publisher.bind("tcp://*:5000");
+  await publisher.bind("tcp://*:5001");
   console.log("Servidor publicando notificaciones en el puerto 5000...");
 
   // Bind the notification socket to port 6000 for receiving taxi port notifications
@@ -71,7 +71,7 @@ async function handleUserRequests() {
     let distanciaMinima = Infinity;
 
     taxis.forEach((taxi) => {
-      if (taxi.libre === 1) {
+      if (taxi.libre == 1) {
         // Check if the taxi is available
         const distancia = Math.abs(taxi.x - userX) + Math.abs(taxi.y - userY);
         if (

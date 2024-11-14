@@ -1,1 +1,0 @@
-node Taxi.js 10 10 info_taxis.txt
