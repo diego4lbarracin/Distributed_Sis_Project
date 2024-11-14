@@ -5,6 +5,7 @@ const sock = new zmq.Reply(); // Create a ZeroMQ Reply socket
 const subscriber = new zmq.Subscriber(); // Create a ZeroMQ Subscriber socket
 const publisher = new zmq.Publisher(); // Create a ZeroMQ Publisher socket
 const notificationSock = new zmq.Reply(); // Create a ZeroMQ Reply socket for notifications
+
 // Redirect console output to a file
 const logFile = fs.createWriteStream("ServerRecords.txt", { flags: "w" });
 const logStdout = process.stdout;
@@ -47,7 +48,6 @@ async function iniciarServidor() {
 async function handleTaxiData() {
   for await (const [topic, msg] of subscriber) {
     const taxiData = JSON.parse(msg.toString());
-    // console.log(`Datos recibidos del taxi: ${JSON.stringify(taxiData)}`);
 
     // Update the taxi information in the taxis array
     let taxi = taxis.find((t) => t.id === taxiData.id);
@@ -85,14 +85,9 @@ async function handleUserRequests() {
   for await (const [msg] of sock) {
     const { userId, userX, userY } = JSON.parse(msg.toString());
 
-    console.log(
-      `Request obtained by the user ${userId} at (${userX}, ${userY})`
-    );
-    // console.log(
-    //   `Estado actual de los taxis antes de asignar: ${JSON.stringify(taxis)}`
-    // );
+    console.log(`Request obtained by the user ${userId} at (${userX}, ${userY})`);
 
-    // Buscar taxi disponible más cercano
+    // Find the nearest available taxi
     let taxiAsignado = null;
     let distanciaMinima = Infinity;
 
@@ -112,7 +107,7 @@ async function handleUserRequests() {
     });
 
     if (taxiAsignado) {
-      taxiAsignado.libre = 0; // Marcar el taxi como ocupado
+      taxiAsignado.libre = 0; // Mark the taxi as occupied
       console.log(`Taxi ${taxiAsignado.id} assigned to the user ${userId}.`);
 
       // Send notification to the assigned taxi
@@ -125,7 +120,7 @@ async function handleUserRequests() {
         })
       );
 
-      // Responder al usuario con los detalles del taxi asignado
+      // Respond to the user with assigned taxi details
       await sock.send(
         JSON.stringify({
           success: true,
@@ -134,13 +129,13 @@ async function handleUserRequests() {
         })
       );
     } else {
-      console.log(`There are not taxis availble for the user: ${userId}.`);
+      console.log(`There are no taxis available for the user: ${userId}.`);
 
-      // Responder con un mensaje de rechazo
+      // Respond with a rejection message
       await sock.send(
         JSON.stringify({
           success: false,
-          message: "There are not taxis available at the moment.",
+          message: "There are no taxis available at the moment.",
         })
       );
     }
@@ -151,7 +146,7 @@ async function handleUserRequests() {
 async function handleTaxiNotifications() {
   for await (const [msg] of notificationSock) {
     const { id, port } = JSON.parse(msg.toString());
-    console.log(`Notification received: Taxi ${id} on ${port}`);
+    console.log(`Notification received: Taxi ${id} on port ${port}`);
 
     // Connect the Subscriber socket to the taxi's port
     subscriber.connect(`tcp://10.43.101.15:${port}`);
