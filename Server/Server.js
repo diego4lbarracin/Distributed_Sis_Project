@@ -1,8 +1,20 @@
 const zmq = require("zeromq");
+const fs = require("fs");
+
 const sock = new zmq.Reply(); // Create a ZeroMQ Reply socket
 const subscriber = new zmq.Subscriber(); // Create a ZeroMQ Subscriber socket
 const publisher = new zmq.Publisher(); // Create a ZeroMQ Publisher socket
 const notificationSock = new zmq.Reply(); // Create a ZeroMQ Reply socket for notifications
+// Redirect console output to a file
+const logFile = fs.createWriteStream("ServerRecords.txt", { flags: "w" });
+const logStdout = process.stdout;
+
+console.log = function (message) {
+  logFile.write(message + "\n");
+  logStdout.write(message + "\n");
+};
+
+console.error = console.log;
 
 // Array to store taxi information
 const taxis = [];

@@ -1,6 +1,18 @@
 // TaxiProcess.js
 const zmq = require("zeromq");
 const { parentPort } = require("worker_threads");
+const fs = require("fs");
+// Redirect console output to a file
+// Make sure to delete the file before running the program
+const logFile = fs.createWriteStream("TaxiProcess.txt", { flags: "a" });
+const logStdout = process.stdout;
+
+console.log = function (message) {
+  logFile.write(message + "\n");
+  logStdout.write(message + "\n");
+};
+
+console.error = console.log;
 const [id, x, y, speed, numberOfServices, N, M, available, port] = process.argv
   .slice(2)
   .map((arg, index) =>
@@ -101,7 +113,8 @@ async function handleAssignment(userId, userX, userY) {
   await notificationSock.connect("tcp://localhost:6000");
   await notificationSock.send(JSON.stringify({ id, port }));
   await notificationSock.close();
-
+  // Send initial data
+  sendTaxiData();
   // Update position and send data every 30 seconds
   setInterval(() => {
     if (isAvailable) {
@@ -109,7 +122,4 @@ async function handleAssignment(userId, userX, userY) {
       sendTaxiData();
     }
   }, 30000);
-
-  // Send initial data
-  sendTaxiData();
 })();

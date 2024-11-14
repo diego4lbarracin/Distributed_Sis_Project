@@ -1,0 +1,78 @@
+Server listening to user's requests and replying on port 3000 (Request-Reply)
+Server publishing taxis' information updates on port 5000 (Publisher-Subscriber)
+Server listening to taxi's information (taxi ID and port) and replying on port 6000 (Request-Reply)
+Notification received: Taxi 8912 on 4000
+Notification received: Taxi 8736 on 4001
+Notification received: Taxi 4806 on 4002
+Notification received: Taxi 845 on 4003
+Notification received: Taxi 2965 on 4004
+Notification received: Taxi 7192 on 4005
+Notification received: Taxi 2017 on 4006
+Notification received: Taxi 8186 on 4007
+Notification received: Taxi 2639 on 4008
+Notification received: Taxi 8169 on 4009
+Current Taxi State = ID: 8736, POS X: 3, POS Y: 7, AVAILABILITY: true, SERVICES: 2
+Current Taxi State = ID: 8912, POS X: 6, POS Y: 2, AVAILABILITY: true, SERVICES: 3
+Current Taxi State = ID: 4806, POS X: 4, POS Y: 5, AVAILABILITY: true, SERVICES: 1
+Current Taxi State = ID: 845, POS X: 5, POS Y: 3, AVAILABILITY: true, SERVICES: 2
+Current Taxi State = ID: 2965, POS X: 9, POS Y: 2, AVAILABILITY: true, SERVICES: 3
+Current Taxi State = ID: 7192, POS X: 0, POS Y: 9, AVAILABILITY: true, SERVICES: 2
+Current Taxi State = ID: 8186, POS X: 2, POS Y: 7, AVAILABILITY: true, SERVICES: 2
+Current Taxi State = ID: 2017, POS X: 10, POS Y: 4, AVAILABILITY: true, SERVICES: 1
+Current Taxi State = ID: 2639, POS X: 5, POS Y: 0, AVAILABILITY: true, SERVICES: 3
+Current Taxi State = ID: 8169, POS X: 8, POS Y: 8, AVAILABILITY: true, SERVICES: 2
+Current Taxi State = ID: 8736, POS X: 3, POS Y: 7, AVAILABILITY: true, SERVICES: 2
+Current Taxi State = ID: 8912, POS X: 6, POS Y: 3, AVAILABILITY: true, SERVICES: 3
+Current Taxi State = ID: 4806, POS X: 4, POS Y: 7, AVAILABILITY: true, SERVICES: 1
+Current Taxi State = ID: 2965, POS X: 9, POS Y: 3, AVAILABILITY: true, SERVICES: 3
+Current Taxi State = ID: 845, POS X: 9, POS Y: 3, AVAILABILITY: true, SERVICES: 2
+Current Taxi State = ID: 7192, POS X: 0, POS Y: 9, AVAILABILITY: true, SERVICES: 2
+Current Taxi State = ID: 8186, POS X: 3, POS Y: 7, AVAILABILITY: true, SERVICES: 2
+Current Taxi State = ID: 2017, POS X: 10, POS Y: 4, AVAILABILITY: true, SERVICES: 1
+Current Taxi State = ID: 2639, POS X: 5, POS Y: 0, AVAILABILITY: true, SERVICES: 3
+Current Taxi State = ID: 8169, POS X: 10, POS Y: 8, AVAILABILITY: true, SERVICES: 2
+Current Taxi State = ID: 8736, POS X: 3, POS Y: 7, AVAILABILITY: true, SERVICES: 2
+Current Taxi State = ID: 8912, POS X: 6, POS Y: 4, AVAILABILITY: true, SERVICES: 3
+Current Taxi State = ID: 4806, POS X: 6, POS Y: 7, AVAILABILITY: true, SERVICES: 1
+Current Taxi State = ID: 845, POS X: 10, POS Y: 3, AVAILABILITY: true, SERVICES: 2
+Current Taxi State = ID: 2965, POS X: 9, POS Y: 4, AVAILABILITY: true, SERVICES: 3
+Current Taxi State = ID: 7192, POS X: 0, POS Y: 9, AVAILABILITY: true, SERVICES: 2
+Current Taxi State = ID: 2017, POS X: 10, POS Y: 8, AVAILABILITY: true, SERVICES: 1
+Current Taxi State = ID: 8186, POS X: 4, POS Y: 7, AVAILABILITY: true, SERVICES: 2
+Current Taxi State = ID: 2639, POS X: 5, POS Y: 0, AVAILABILITY: true, SERVICES: 3
+Current Taxi State = ID: 8169, POS X: 10, POS Y: 10, AVAILABILITY: true, SERVICES: 2
+Request obtained by the user 4 at (2, 6)
+Taxi 8736 assigned to the user 4.
+Request obtained by the user 7 at (2, 2)
+Taxi 2639 assigned to the user 7.
+Request obtained by the user 1 at (4, 2)
+Taxi 8912 assigned to the user 1.
+Request obtained by the user 6 at (5, 2)
+Taxi 845 assigned to the user 6.
+Request obtained by the user 3 at (3, 2)
+Taxi 8186 assigned to the user 3.
+Request obtained by the user 8 at (3, 1)
+Taxi 2965 assigned to the user 8.
+Request obtained by the user 2 at (5, 4)
+Taxi 4806 assigned to the user 2.
+Request obtained by the user 5 at (1, 1)
+Taxi 7192 assigned to the user 5.
+Current Taxi State = ID: 2017, POS X: 10, POS Y: 10, AVAILABILITY: true, SERVICES: 1
+Current Taxi State = ID: 8169, POS X: 10, POS Y: 10, AVAILABILITY: true, SERVICES: 2
+Current Taxi State = ID: 8736, POS X: 3, POS Y: 7, AVAILABILITY: true, SERVICES: 1
+Current Taxi State = ID: 2639, POS X: 5, POS Y: 0, AVAILABILITY: true, SERVICES: 2
+Current Taxi State = ID: 8912, POS X: 6, POS Y: 1, AVAILABILITY: true, SERVICES: 2
+Current Taxi State = ID: 845, POS X: 1, POS Y: 3, AVAILABILITY: true, SERVICES: 1
+Current Taxi State = ID: 8186, POS X: 2, POS Y: 6, AVAILABILITY: true, SERVICES: 1
+Current Taxi State = ID: 2965, POS X: 8, POS Y: 2, AVAILABILITY: true, SERVICES: 2
+Current Taxi State = ID: 4806, POS X: 6, POS Y: 7, AVAILABILITY: false, SERVICES: 0
+Current Taxi State = ID: 7192, POS X: 0, POS Y: 9, AVAILABILITY: true, SERVICES: 1
+Current Taxi State = ID: 8736, POS X: 3, POS Y: 7, AVAILABILITY: true, SERVICES: 1
+Current Taxi State = ID: 8912, POS X: 6, POS Y: 2, AVAILABILITY: true, SERVICES: 2
+Current Taxi State = ID: 2965, POS X: 8, POS Y: 3, AVAILABILITY: true, SERVICES: 2
+Current Taxi State = ID: 845, POS X: 1, POS Y: 7, AVAILABILITY: true, SERVICES: 1
+Current Taxi State = ID: 7192, POS X: 0, POS Y: 9, AVAILABILITY: true, SERVICES: 1
+Current Taxi State = ID: 2017, POS X: 10, POS Y: 10, AVAILABILITY: true, SERVICES: 1
+Current Taxi State = ID: 8186, POS X: 2, POS Y: 7, AVAILABILITY: true, SERVICES: 1
+Current Taxi State = ID: 2639, POS X: 5, POS Y: 0, AVAILABILITY: true, SERVICES: 2
+Current Taxi State = ID: 8169, POS X: 10, POS Y: 10, AVAILABILITY: true, SERVICES: 2

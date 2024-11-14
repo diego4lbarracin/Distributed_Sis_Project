@@ -1,6 +1,18 @@
 // Import required modules from worker_threads and zeromq
 const { parentPort, workerData, threadId } = require("worker_threads");
 const zmq = require("zeromq");
+const fs = require("fs");
+// Redirect console output to a file
+// Make sure to delete the file before running the program
+const logFile = fs.createWriteStream("UsersRecords.txt", { flags: "a" });
+const logStdout = process.stdout;
+
+console.log = function (message) {
+  logFile.write(message + "\n");
+  logStdout.write(message + "\n");
+};
+
+console.error = console.log;
 
 // Function to request a taxi for a user
 async function solicitarTaxi(userId, x, y) {
