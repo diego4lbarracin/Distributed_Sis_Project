@@ -34,7 +34,7 @@ async function iniciarServidor() {
   );
 
   // Bind the notification socket to port 6000 for receiving taxi port notifications
-  await notificationSock.bind("tcp://10.43.100.93:6000");
+  await notificationSock.bind("tcp://10.43.100.93:6000");a
   console.log(
     "Server listening to taxi's information (taxi ID and port) and replying on port 6000 (Request-Reply)"
   );
@@ -154,7 +154,7 @@ async function handleTaxiNotifications() {
     console.log(`Notification received: Taxi ${id} on ${port}`);
 
     // Connect the Subscriber socket to the taxi's port
-    subscriber.connect(`tcp://10.43.100.93:${port}`);
+    subscriber.connect(`tcp://10.43.101.15:${port}`);
     subscriber.subscribe("taxiData");
 
     // Send acknowledgment
