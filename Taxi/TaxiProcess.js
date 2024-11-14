@@ -129,12 +129,6 @@ let currentY = y;
 let isAvailable = true;
 let servicesLeft = numberOfServices;
 
-// Define the initial server IP and port
-let serverIP = "10.43.100.93";
-let serverPort = 3000;
-
-
-
 // Function to update the taxi's position
 function updatePosition() {
   if (speed > 0) {
