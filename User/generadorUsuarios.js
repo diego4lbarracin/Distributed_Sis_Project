@@ -37,9 +37,9 @@ async function generarUsuarios(archivoCoordenadas, numUsuarios, waitMax) {
       await sleep(100); // Wait 100ms before creating the next user
     }
     await Promise.all(usuarios); // Wait for all users to complete their tasks
-    console.log("Todos los usuarios han completado su solicitud de Taxi.");
+    console.log("All users have completed their taxi requests.");
   } catch (error) {
-    console.log("Error al leer el archivo o crear usuarios: ", error); // Log any errors
+    console.log("Error reading the file or creating users: ", error); // Log any errors
   }
 }
 
