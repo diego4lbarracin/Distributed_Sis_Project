@@ -6,7 +6,7 @@ const subscriber = new zmq.Subscriber();
 const publisher = new zmq.Publisher();
 const notificationSock = new zmq.Reply();
 
-const logFile = fs.createWriteStream("ServerRecords.txt", { flags: "w" });
+const logFile = fs.createWriteStream("BackupServerRecords.txt", { flags: "w" });
 const logStdout = process.stdout;
 
 console.log = function (message) {
@@ -17,45 +17,15 @@ console.log = function (message) {
 console.error = console.log;
 
 const taxis = [];
-let healthCheckInterval;
 
-// Function to start the main server
-async function startMainServer() {
-  await sock.bind("tcp://10.43.100.93:3000");
-  await publisher.bind("tcp://10.43.100.93:5000");
-  await notificationSock.bind("tcp://10.43.100.93:6000");
+// Function to start the backup server
+async function startBackupServer() {
+  await sock.bind("tcp://10.43.102.178:3000");
+  await publisher.bind("tcp://10.43.102.178:5000");
+  await notificationSock.bind("tcp://10.43.102.178:6000");
   subscriber.subscribe("taxiData");
 
-  console.log("Main server is up and running.");
-  startHealthCheck();
-}
-
-// Health check function
-function startHealthCheck() {
-  healthCheckInterval = setInterval(async () => {
-    try {
-      await sock.send("healthCheck");
-    } catch (error) {
-      console.error("Main server not responding, activating backup...");
-      activateBackupServer();
-    }
-  }, 5000); // Check every 5 seconds
-}
-
-// Function to activate the backup server
-async function activateBackupServer() {
-  clearInterval(healthCheckInterval);
-  // Redirect taxis and users to backup server IP and ports
-  await publisher.send(
-    JSON.stringify({
-      redirect: true,
-      newServerIP: "10.43.102.178",
-      userPort: 3000,
-      taxiPort: 5000,
-      notificationPort: 6000,
-    })
-  );
-  console.log("Users and taxis redirected to the backup server.");
+  console.log("Backup server is up and running.");
 }
 
 // Handle incoming taxi data
@@ -148,13 +118,13 @@ async function handleTaxiNotifications() {
 
 (async () => {
   try {
-    await startMainServer();
+    await startBackupServer();
     await Promise.all([
       handleTaxiData(),
       handleUserRequests(),
       handleTaxiNotifications(),
     ]);
   } catch (error) {
-    console.error("Error in the main server:", error);
+    console.error("Error in the backup server:", error);
   }
 })();
