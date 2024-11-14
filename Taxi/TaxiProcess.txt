@@ -116,3 +116,1163 @@ Taxi 2017 data sent: {"id":2017,"x":10,"y":10,"speed":4,"numberOfServices":1,"av
 Taxi 2639 data sent: {"id":2639,"x":5,"y":0,"speed":0,"numberOfServices":2,"available":true}
 Taxi 8169 position updated to (10, 10)
 Taxi 8169 data sent: {"id":8169,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 6431 bound to port 4004
+Taxi 7207 bound to port 4006
+Taxi 7059 bound to port 4001
+Taxi 9816 bound to port 4000
+Taxi 8247 bound to port 4005
+Taxi 5729 bound to port 4006
+Taxi 2531 bound to port 4000
+Taxi 2531 data sent: {"id":2531,"x":6,"y":1,"speed":1,"numberOfServices":3,"available":true}
+Taxi 9448 bound to port 4004
+Taxi 9448 data sent: {"id":9448,"x":8,"y":2,"speed":1,"numberOfServices":3,"available":true}
+Taxi 7670 bound to port 4002
+Taxi 7670 data sent: {"id":7670,"x":4,"y":3,"speed":2,"numberOfServices":1,"available":true}
+Taxi 7189 bound to port 4006
+Taxi 1461 bound to port 4003
+Taxi 1461 data sent: {"id":1461,"x":1,"y":3,"speed":4,"numberOfServices":2,"available":true}
+Taxi 7895 bound to port 4005
+Taxi 7895 data sent: {"id":7895,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 7189 data sent: {"id":7189,"x":7,"y":4,"speed":4,"numberOfServices":1,"available":true}
+Taxi 9043 bound to port 4007
+Taxi 9043 data sent: {"id":9043,"x":2,"y":6,"speed":1,"numberOfServices":2,"available":true}
+Taxi 2068 bound to port 4009
+Taxi 2068 data sent: {"id":2068,"x":4,"y":8,"speed":4,"numberOfServices":2,"available":true}
+Taxi 4524 bound to port 4001
+Taxi 4524 data sent: {"id":4524,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 2773 bound to port 4008
+Taxi 2773 data sent: {"id":2773,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 2531 position updated to (7, 1)
+Taxi 2531 data sent: {"id":2531,"x":7,"y":1,"speed":1,"numberOfServices":3,"available":true}
+Taxi 9448 position updated to (8, 3)
+Taxi 9448 data sent: {"id":9448,"x":8,"y":3,"speed":1,"numberOfServices":3,"available":true}
+Taxi 7670 position updated to (4, 5)
+Taxi 7670 data sent: {"id":7670,"x":4,"y":5,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1461 position updated to (1, 7)
+Taxi 1461 data sent: {"id":1461,"x":1,"y":7,"speed":4,"numberOfServices":2,"available":true}
+Taxi 7189 position updated to (10, 4)
+Taxi 7189 data sent: {"id":7189,"x":10,"y":4,"speed":4,"numberOfServices":1,"available":true}
+Taxi 7895 data sent: {"id":7895,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 9043 position updated to (2, 7)
+Taxi 2068 position updated to (8, 8)
+Taxi 9043 data sent: {"id":9043,"x":2,"y":7,"speed":1,"numberOfServices":2,"available":true}
+Taxi 2068 data sent: {"id":2068,"x":8,"y":8,"speed":4,"numberOfServices":2,"available":true}
+Taxi 4524 data sent: {"id":4524,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 2773 data sent: {"id":2773,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 2531 position updated to (7, 2)
+Taxi 2531 data sent: {"id":2531,"x":7,"y":2,"speed":1,"numberOfServices":3,"available":true}
+Taxi 9448 position updated to (8, 4)
+Taxi 9448 data sent: {"id":9448,"x":8,"y":4,"speed":1,"numberOfServices":3,"available":true}
+Taxi 7670 position updated to (6, 5)
+Taxi 7670 data sent: {"id":7670,"x":6,"y":5,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1461 position updated to (5, 7)
+Taxi 1461 data sent: {"id":1461,"x":5,"y":7,"speed":4,"numberOfServices":2,"available":true}
+Taxi 7189 position updated to (10, 8)
+Taxi 7189 data sent: {"id":7189,"x":10,"y":8,"speed":4,"numberOfServices":1,"available":true}
+Taxi 7895 data sent: {"id":7895,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 9043 position updated to (2, 8)
+Taxi 9043 data sent: {"id":9043,"x":2,"y":8,"speed":1,"numberOfServices":2,"available":true}
+Taxi 2068 position updated to (8, 10)
+Taxi 2068 data sent: {"id":2068,"x":8,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 4524 data sent: {"id":4524,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 2773 data sent: {"id":2773,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 2531 position updated to (7, 3)
+Taxi 2531 data sent: {"id":2531,"x":7,"y":3,"speed":1,"numberOfServices":3,"available":true}
+Taxi 9448 position updated to (9, 4)
+Taxi 9448 data sent: {"id":9448,"x":9,"y":4,"speed":1,"numberOfServices":3,"available":true}
+Taxi 7670 position updated to (6, 7)
+Taxi 7670 data sent: {"id":7670,"x":6,"y":7,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1461 position updated to (9, 7)
+Taxi 1461 data sent: {"id":1461,"x":9,"y":7,"speed":4,"numberOfServices":2,"available":true}
+Taxi 2068 position updated to (8, 10)
+Taxi 2068 data sent: {"id":2068,"x":8,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 7189 position updated to (10, 10)
+Taxi 7189 data sent: {"id":7189,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 7895 data sent: {"id":7895,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 9043 position updated to (2, 9)
+Taxi 9043 data sent: {"id":9043,"x":2,"y":9,"speed":1,"numberOfServices":2,"available":true}
+Taxi 4524 data sent: {"id":4524,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 2773 data sent: {"id":2773,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 2531 position updated to (7, 4)
+Taxi 2531 data sent: {"id":2531,"x":7,"y":4,"speed":1,"numberOfServices":3,"available":true}
+Taxi 9448 position updated to (9, 5)
+Taxi 9448 data sent: {"id":9448,"x":9,"y":5,"speed":1,"numberOfServices":3,"available":true}
+Taxi 7670 position updated to (6, 9)
+Taxi 7670 data sent: {"id":7670,"x":6,"y":9,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1461 position updated to (9, 10)
+Taxi 1461 data sent: {"id":1461,"x":9,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 2068 position updated to (8, 10)
+Taxi 2068 data sent: {"id":2068,"x":8,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 7189 position updated to (10, 10)
+Taxi 7189 data sent: {"id":7189,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 7895 data sent: {"id":7895,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 9043 position updated to (2, 10)
+Taxi 9043 data sent: {"id":9043,"x":2,"y":10,"speed":1,"numberOfServices":2,"available":true}
+Taxi 4524 data sent: {"id":4524,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 2773 data sent: {"id":2773,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 2531 position updated to (8, 4)
+Taxi 2531 data sent: {"id":2531,"x":8,"y":4,"speed":1,"numberOfServices":3,"available":true}
+Taxi 9448 position updated to (9, 6)
+Taxi 9448 data sent: {"id":9448,"x":9,"y":6,"speed":1,"numberOfServices":3,"available":true}
+Taxi 7670 position updated to (6, 10)
+Taxi 7670 data sent: {"id":7670,"x":6,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1461 position updated to (10, 10)
+Taxi 1461 data sent: {"id":1461,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 2068 position updated to (8, 10)
+Taxi 2068 data sent: {"id":2068,"x":8,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 7189 position updated to (10, 10)
+Taxi 7189 data sent: {"id":7189,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 9043 position updated to (2, 10)
+Taxi 7895 data sent: {"id":7895,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 9043 data sent: {"id":9043,"x":2,"y":10,"speed":1,"numberOfServices":2,"available":true}
+Taxi 4524 data sent: {"id":4524,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 2773 data sent: {"id":2773,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 2531 position updated to (9, 4)
+Taxi 2531 data sent: {"id":2531,"x":9,"y":4,"speed":1,"numberOfServices":3,"available":true}
+Taxi 9448 position updated to (10, 6)
+Taxi 9448 data sent: {"id":9448,"x":10,"y":6,"speed":1,"numberOfServices":3,"available":true}
+Taxi 7670 position updated to (8, 10)
+Taxi 7670 data sent: {"id":7670,"x":8,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1461 position updated to (10, 10)
+Taxi 1461 data sent: {"id":1461,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 2068 position updated to (8, 10)
+Taxi 2068 data sent: {"id":2068,"x":8,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 7189 position updated to (10, 10)
+Taxi 9043 position updated to (3, 10)
+Taxi 9043 data sent: {"id":9043,"x":3,"y":10,"speed":1,"numberOfServices":2,"available":true}
+Taxi 7189 data sent: {"id":7189,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 7895 data sent: {"id":7895,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 4524 data sent: {"id":4524,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 2773 data sent: {"id":2773,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 2531 position updated to (9, 5)
+Taxi 2531 data sent: {"id":2531,"x":9,"y":5,"speed":1,"numberOfServices":3,"available":true}
+Taxi 9448 position updated to (10, 7)
+Taxi 9448 data sent: {"id":9448,"x":10,"y":7,"speed":1,"numberOfServices":3,"available":true}
+Taxi 7670 position updated to (10, 10)
+Taxi 7670 data sent: {"id":7670,"x":10,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1461 position updated to (10, 10)
+Taxi 1461 data sent: {"id":1461,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 2068 position updated to (10, 10)
+Taxi 2068 data sent: {"id":2068,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 7189 position updated to (10, 10)
+Taxi 7189 data sent: {"id":7189,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 9043 position updated to (3, 10)
+Taxi 7895 data sent: {"id":7895,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 9043 data sent: {"id":9043,"x":3,"y":10,"speed":1,"numberOfServices":2,"available":true}
+Taxi 4524 data sent: {"id":4524,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 2773 data sent: {"id":2773,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 2531 position updated to (9, 6)
+Taxi 2531 data sent: {"id":2531,"x":9,"y":6,"speed":1,"numberOfServices":3,"available":true}
+Taxi 9448 position updated to (10, 7)
+Taxi 9448 data sent: {"id":9448,"x":10,"y":7,"speed":1,"numberOfServices":3,"available":true}
+Taxi 7670 position updated to (10, 10)
+Taxi 7670 data sent: {"id":7670,"x":10,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1461 position updated to (10, 10)
+Taxi 1461 data sent: {"id":1461,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 7895 data sent: {"id":7895,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 9043 position updated to (4, 10)
+Taxi 9043 data sent: {"id":9043,"x":4,"y":10,"speed":1,"numberOfServices":2,"available":true}
+Taxi 2068 position updated to (10, 10)
+Taxi 2068 data sent: {"id":2068,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 7189 position updated to (10, 10)
+Taxi 7189 data sent: {"id":7189,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 4524 data sent: {"id":4524,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 2773 data sent: {"id":2773,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 2531 position updated to (9, 7)
+Taxi 2531 data sent: {"id":2531,"x":9,"y":7,"speed":1,"numberOfServices":3,"available":true}
+Taxi 9448 position updated to (10, 7)
+Taxi 9448 data sent: {"id":9448,"x":10,"y":7,"speed":1,"numberOfServices":3,"available":true}
+Taxi 7670 position updated to (10, 10)
+Taxi 7670 data sent: {"id":7670,"x":10,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1461 position updated to (10, 10)
+Taxi 1461 data sent: {"id":1461,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 9043 position updated to (4, 10)
+Taxi 9043 data sent: {"id":9043,"x":4,"y":10,"speed":1,"numberOfServices":2,"available":true}
+Taxi 7895 data sent: {"id":7895,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 2068 position updated to (10, 10)
+Taxi 2068 data sent: {"id":2068,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 7189 position updated to (10, 10)
+Taxi 7189 data sent: {"id":7189,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 4524 data sent: {"id":4524,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 2773 data sent: {"id":2773,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 2531 position updated to (9, 8)
+Taxi 2531 data sent: {"id":2531,"x":9,"y":8,"speed":1,"numberOfServices":3,"available":true}
+Taxi 9448 position updated to (10, 7)
+Taxi 9448 data sent: {"id":9448,"x":10,"y":7,"speed":1,"numberOfServices":3,"available":true}
+Taxi 7670 position updated to (10, 10)
+Taxi 7670 data sent: {"id":7670,"x":10,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1461 position updated to (10, 10)
+Taxi 1461 data sent: {"id":1461,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 7895 data sent: {"id":7895,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 9043 position updated to (5, 10)
+Taxi 9043 data sent: {"id":9043,"x":5,"y":10,"speed":1,"numberOfServices":2,"available":true}
+Taxi 2068 position updated to (10, 10)
+Taxi 2068 data sent: {"id":2068,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 7189 position updated to (10, 10)
+Taxi 7189 data sent: {"id":7189,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 4524 data sent: {"id":4524,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 2773 data sent: {"id":2773,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 2531 position updated to (10, 8)
+Taxi 2531 data sent: {"id":2531,"x":10,"y":8,"speed":1,"numberOfServices":3,"available":true}
+Taxi 9448 position updated to (10, 7)
+Taxi 9448 data sent: {"id":9448,"x":10,"y":7,"speed":1,"numberOfServices":3,"available":true}
+Taxi 7670 position updated to (10, 10)
+Taxi 7670 data sent: {"id":7670,"x":10,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1461 position updated to (10, 10)
+Taxi 1461 data sent: {"id":1461,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 9043 position updated to (5, 10)
+Taxi 7895 data sent: {"id":7895,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 9043 data sent: {"id":9043,"x":5,"y":10,"speed":1,"numberOfServices":2,"available":true}
+Taxi 2068 position updated to (10, 10)
+Taxi 2068 data sent: {"id":2068,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 7189 position updated to (10, 10)
+Taxi 7189 data sent: {"id":7189,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 4524 data sent: {"id":4524,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 2773 data sent: {"id":2773,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 2531 position updated to (10, 8)
+Taxi 2531 data sent: {"id":2531,"x":10,"y":8,"speed":1,"numberOfServices":3,"available":true}
+Taxi 9448 position updated to (10, 7)
+Taxi 9448 data sent: {"id":9448,"x":10,"y":7,"speed":1,"numberOfServices":3,"available":true}
+Taxi 7670 position updated to (10, 10)
+Taxi 7670 data sent: {"id":7670,"x":10,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1461 position updated to (10, 10)
+Taxi 1461 data sent: {"id":1461,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 9043 position updated to (5, 10)
+Taxi 9043 data sent: {"id":9043,"x":5,"y":10,"speed":1,"numberOfServices":2,"available":true}
+Taxi 7895 data sent: {"id":7895,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 2068 position updated to (10, 10)
+Taxi 2068 data sent: {"id":2068,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 7189 position updated to (10, 10)
+Taxi 7189 data sent: {"id":7189,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 4524 data sent: {"id":4524,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 2773 data sent: {"id":2773,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 2531 position updated to (10, 9)
+Taxi 2531 data sent: {"id":2531,"x":10,"y":9,"speed":1,"numberOfServices":3,"available":true}
+Taxi 9448 position updated to (10, 7)
+Taxi 9448 data sent: {"id":9448,"x":10,"y":7,"speed":1,"numberOfServices":3,"available":true}
+Taxi 7670 position updated to (10, 10)
+Taxi 7670 data sent: {"id":7670,"x":10,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1461 position updated to (10, 10)
+Taxi 1461 data sent: {"id":1461,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 7895 data sent: {"id":7895,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 9043 position updated to (6, 10)
+Taxi 9043 data sent: {"id":9043,"x":6,"y":10,"speed":1,"numberOfServices":2,"available":true}
+Taxi 2068 position updated to (10, 10)
+Taxi 2068 data sent: {"id":2068,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 7189 position updated to (10, 10)
+Taxi 7189 data sent: {"id":7189,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 4524 data sent: {"id":4524,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 2773 data sent: {"id":2773,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 2531 position updated to (10, 10)
+Taxi 2531 data sent: {"id":2531,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 9448 position updated to (10, 7)
+Taxi 9448 data sent: {"id":9448,"x":10,"y":7,"speed":1,"numberOfServices":3,"available":true}
+Taxi 7670 position updated to (10, 10)
+Taxi 7670 data sent: {"id":7670,"x":10,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1461 position updated to (10, 10)
+Taxi 1461 data sent: {"id":1461,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 2068 position updated to (10, 10)
+Taxi 2068 data sent: {"id":2068,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 9043 position updated to (7, 10)
+Taxi 9043 data sent: {"id":9043,"x":7,"y":10,"speed":1,"numberOfServices":2,"available":true}
+Taxi 7895 data sent: {"id":7895,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 7189 position updated to (10, 10)
+Taxi 7189 data sent: {"id":7189,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 4524 data sent: {"id":4524,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 2773 data sent: {"id":2773,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 2531 position updated to (10, 10)
+Taxi 2531 data sent: {"id":2531,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 9448 position updated to (10, 7)
+Taxi 9448 data sent: {"id":9448,"x":10,"y":7,"speed":1,"numberOfServices":3,"available":true}
+Taxi 7670 position updated to (10, 10)
+Taxi 7670 data sent: {"id":7670,"x":10,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 2068 position updated to (10, 10)
+Taxi 2068 data sent: {"id":2068,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 1461 position updated to (10, 10)
+Taxi 1461 data sent: {"id":1461,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 7895 data sent: {"id":7895,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 9043 position updated to (8, 10)
+Taxi 9043 data sent: {"id":9043,"x":8,"y":10,"speed":1,"numberOfServices":2,"available":true}
+Taxi 7189 position updated to (10, 10)
+Taxi 7189 data sent: {"id":7189,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 4524 data sent: {"id":4524,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 2773 data sent: {"id":2773,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 2531 position updated to (10, 10)
+Taxi 2531 data sent: {"id":2531,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 9448 position updated to (10, 8)
+Taxi 9448 data sent: {"id":9448,"x":10,"y":8,"speed":1,"numberOfServices":3,"available":true}
+Taxi 7670 position updated to (10, 10)
+Taxi 7670 data sent: {"id":7670,"x":10,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 2068 position updated to (10, 10)
+Taxi 2068 data sent: {"id":2068,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 1461 position updated to (10, 10)
+Taxi 1461 data sent: {"id":1461,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 7895 data sent: {"id":7895,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 9043 position updated to (8, 10)
+Taxi 9043 data sent: {"id":9043,"x":8,"y":10,"speed":1,"numberOfServices":2,"available":true}
+Taxi 7189 position updated to (10, 10)
+Taxi 7189 data sent: {"id":7189,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 4524 data sent: {"id":4524,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 2773 data sent: {"id":2773,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 2531 position updated to (10, 10)
+Taxi 2531 data sent: {"id":2531,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 9448 position updated to (10, 8)
+Taxi 9448 data sent: {"id":9448,"x":10,"y":8,"speed":1,"numberOfServices":3,"available":true}
+Taxi 7670 position updated to (10, 10)
+Taxi 7670 data sent: {"id":7670,"x":10,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 2068 position updated to (10, 10)
+Taxi 2068 data sent: {"id":2068,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 1461 position updated to (10, 10)
+Taxi 1461 data sent: {"id":1461,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 7895 data sent: {"id":7895,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 9043 position updated to (9, 10)
+Taxi 9043 data sent: {"id":9043,"x":9,"y":10,"speed":1,"numberOfServices":2,"available":true}
+Taxi 7189 position updated to (10, 10)
+Taxi 7189 data sent: {"id":7189,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 4524 data sent: {"id":4524,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 2773 data sent: {"id":2773,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 2531 position updated to (10, 10)
+Taxi 2531 data sent: {"id":2531,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 9448 position updated to (10, 9)
+Taxi 9448 data sent: {"id":9448,"x":10,"y":9,"speed":1,"numberOfServices":3,"available":true}
+Taxi 7670 position updated to (10, 10)
+Taxi 7670 data sent: {"id":7670,"x":10,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 2068 position updated to (10, 10)
+Taxi 2068 data sent: {"id":2068,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 1461 position updated to (10, 10)
+Taxi 1461 data sent: {"id":1461,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 7895 data sent: {"id":7895,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 9043 position updated to (9, 10)
+Taxi 9043 data sent: {"id":9043,"x":9,"y":10,"speed":1,"numberOfServices":2,"available":true}
+Taxi 7189 position updated to (10, 10)
+Taxi 7189 data sent: {"id":7189,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 4524 data sent: {"id":4524,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 2773 data sent: {"id":2773,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 2531 position updated to (10, 10)
+Taxi 2531 data sent: {"id":2531,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 9448 position updated to (10, 10)
+Taxi 9448 data sent: {"id":9448,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 7670 position updated to (10, 10)
+Taxi 7670 data sent: {"id":7670,"x":10,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 2068 position updated to (10, 10)
+Taxi 2068 data sent: {"id":2068,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 1461 position updated to (10, 10)
+Taxi 1461 data sent: {"id":1461,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 7895 data sent: {"id":7895,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 9043 position updated to (9, 10)
+Taxi 9043 data sent: {"id":9043,"x":9,"y":10,"speed":1,"numberOfServices":2,"available":true}
+Taxi 7189 position updated to (10, 10)
+Taxi 7189 data sent: {"id":7189,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 4524 data sent: {"id":4524,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 2773 data sent: {"id":2773,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 2531 position updated to (10, 10)
+Taxi 2531 data sent: {"id":2531,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 9448 position updated to (10, 10)
+Taxi 9448 data sent: {"id":9448,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 7670 position updated to (10, 10)
+Taxi 7670 data sent: {"id":7670,"x":10,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 2068 position updated to (10, 10)
+Taxi 2068 data sent: {"id":2068,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 1461 position updated to (10, 10)
+Taxi 1461 data sent: {"id":1461,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 7895 data sent: {"id":7895,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 9043 position updated to (9, 10)
+Taxi 9043 data sent: {"id":9043,"x":9,"y":10,"speed":1,"numberOfServices":2,"available":true}
+Taxi 7189 position updated to (10, 10)
+Taxi 7189 data sent: {"id":7189,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 4524 data sent: {"id":4524,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 2773 data sent: {"id":2773,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 2531 position updated to (10, 10)
+Taxi 2531 data sent: {"id":2531,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 9448 position updated to (10, 10)
+Taxi 9448 data sent: {"id":9448,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 7670 position updated to (10, 10)
+Taxi 7670 data sent: {"id":7670,"x":10,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 2068 position updated to (10, 10)
+Taxi 2068 data sent: {"id":2068,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 1461 position updated to (10, 10)
+Taxi 1461 data sent: {"id":1461,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 7895 data sent: {"id":7895,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 9043 position updated to (10, 10)
+Taxi 9043 data sent: {"id":9043,"x":10,"y":10,"speed":1,"numberOfServices":2,"available":true}
+Taxi 7189 position updated to (10, 10)
+Taxi 7189 data sent: {"id":7189,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 4524 data sent: {"id":4524,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 2773 data sent: {"id":2773,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 2531 position updated to (10, 10)
+Taxi 2531 data sent: {"id":2531,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 9448 position updated to (10, 10)
+Taxi 9448 data sent: {"id":9448,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 7670 position updated to (10, 10)
+Taxi 7670 data sent: {"id":7670,"x":10,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 2068 position updated to (10, 10)
+Taxi 2068 data sent: {"id":2068,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 1461 position updated to (10, 10)
+Taxi 1461 data sent: {"id":1461,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 7895 data sent: {"id":7895,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 9043 position updated to (10, 10)
+Taxi 9043 data sent: {"id":9043,"x":10,"y":10,"speed":1,"numberOfServices":2,"available":true}
+Taxi 7189 position updated to (10, 10)
+Taxi 7189 data sent: {"id":7189,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 4524 data sent: {"id":4524,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 2773 data sent: {"id":2773,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 2531 position updated to (10, 10)
+Taxi 2531 data sent: {"id":2531,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 9448 position updated to (10, 10)
+Taxi 9448 data sent: {"id":9448,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 7670 position updated to (10, 10)
+Taxi 7670 data sent: {"id":7670,"x":10,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 2068 position updated to (10, 10)
+Taxi 2068 data sent: {"id":2068,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 1461 position updated to (10, 10)
+Taxi 1461 data sent: {"id":1461,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 7895 data sent: {"id":7895,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 9043 position updated to (10, 10)
+Taxi 9043 data sent: {"id":9043,"x":10,"y":10,"speed":1,"numberOfServices":2,"available":true}
+Taxi 7189 position updated to (10, 10)
+Taxi 7189 data sent: {"id":7189,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 4524 data sent: {"id":4524,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 2773 data sent: {"id":2773,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 2531 position updated to (10, 10)
+Taxi 2531 data sent: {"id":2531,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 9448 position updated to (10, 10)
+Taxi 9448 data sent: {"id":9448,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 7670 position updated to (10, 10)
+Taxi 7670 data sent: {"id":7670,"x":10,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 2068 position updated to (10, 10)
+Taxi 2068 data sent: {"id":2068,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 1461 position updated to (10, 10)
+Taxi 1461 data sent: {"id":1461,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 7895 data sent: {"id":7895,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 7189 position updated to (10, 10)
+Taxi 7189 data sent: {"id":7189,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 9043 position updated to (10, 10)
+Taxi 9043 data sent: {"id":9043,"x":10,"y":10,"speed":1,"numberOfServices":2,"available":true}
+Taxi 4524 data sent: {"id":4524,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 2773 data sent: {"id":2773,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 9886 bound to port 4000
+Taxi 9886 data sent: {"id":9886,"x":6,"y":1,"speed":1,"numberOfServices":3,"available":true}
+Taxi 399 bound to port 4005
+Taxi 399 data sent: {"id":399,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 1892 bound to port 4002
+Taxi 1892 data sent: {"id":1892,"x":4,"y":3,"speed":2,"numberOfServices":1,"available":true}
+Taxi 9481 bound to port 4003
+Taxi 9481 data sent: {"id":9481,"x":1,"y":3,"speed":4,"numberOfServices":2,"available":true}
+Taxi 3366 bound to port 4008
+Taxi 3366 data sent: {"id":3366,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 5161 bound to port 4007
+Taxi 5161 data sent: {"id":5161,"x":2,"y":6,"speed":1,"numberOfServices":2,"available":true}
+Taxi 5858 bound to port 4001
+Taxi 5355 bound to port 4006
+Taxi 5355 data sent: {"id":5355,"x":7,"y":4,"speed":4,"numberOfServices":1,"available":true}
+Taxi 5858 data sent: {"id":5858,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 7426 bound to port 4009
+Taxi 7426 data sent: {"id":7426,"x":4,"y":8,"speed":4,"numberOfServices":2,"available":true}
+Taxi 5952 bound to port 4004
+Taxi 5952 data sent: {"id":5952,"x":8,"y":2,"speed":1,"numberOfServices":3,"available":true}
+Taxi 9886 position updated to (7, 1)
+Taxi 9886 data sent: {"id":9886,"x":7,"y":1,"speed":1,"numberOfServices":3,"available":true}
+Taxi 399 data sent: {"id":399,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 1892 position updated to (4, 5)
+Taxi 1892 data sent: {"id":1892,"x":4,"y":5,"speed":2,"numberOfServices":1,"available":true}
+Taxi 9481 position updated to (5, 3)
+Taxi 9481 data sent: {"id":9481,"x":5,"y":3,"speed":4,"numberOfServices":2,"available":true}
+Taxi 3366 data sent: {"id":3366,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 5161 position updated to (2, 7)
+Taxi 5161 data sent: {"id":5161,"x":2,"y":7,"speed":1,"numberOfServices":2,"available":true}
+Taxi 5355 position updated to (7, 8)
+Taxi 5858 data sent: {"id":5858,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 5355 data sent: {"id":5355,"x":7,"y":8,"speed":4,"numberOfServices":1,"available":true}
+Taxi 7426 position updated to (4, 10)
+Taxi 5952 position updated to (8, 3)
+Taxi 7426 data sent: {"id":7426,"x":4,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 5952 data sent: {"id":5952,"x":8,"y":3,"speed":1,"numberOfServices":3,"available":true}
+Taxi 9886 position updated to (7, 2)
+Taxi 9886 data sent: {"id":9886,"x":7,"y":2,"speed":1,"numberOfServices":3,"available":true}
+Taxi 399 data sent: {"id":399,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 1892 position updated to (4, 7)
+Taxi 1892 data sent: {"id":1892,"x":4,"y":7,"speed":2,"numberOfServices":1,"available":true}
+Taxi 9481 position updated to (9, 3)
+Taxi 9481 data sent: {"id":9481,"x":9,"y":3,"speed":4,"numberOfServices":2,"available":true}
+Taxi 3366 data sent: {"id":3366,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 5161 position updated to (3, 7)
+Taxi 5161 data sent: {"id":5161,"x":3,"y":7,"speed":1,"numberOfServices":2,"available":true}
+Taxi 5858 data sent: {"id":5858,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 5355 position updated to (7, 10)
+Taxi 5355 data sent: {"id":5355,"x":7,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 7426 position updated to (4, 10)
+Taxi 7426 data sent: {"id":7426,"x":4,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 5952 position updated to (8, 4)
+Taxi 5952 data sent: {"id":5952,"x":8,"y":4,"speed":1,"numberOfServices":3,"available":true}
+Taxi 3366 assigned to user 7. Services left: 2
+Taxi 9886 assigned to user 3. Services left: 2
+Taxi 1892 assigned to user 1. Services left: 0
+Taxi 5161 assigned to user 8. Services left: 1
+Taxi 5952 assigned to user 2. Services left: 2
+Taxi 9481 assigned to user 6. Services left: 1
+Taxi 5858 assigned to user 5. Services left: 1
+Taxi 399 assigned to user 4. Services left: 1
+Taxi 5355 position updated to (10, 10)
+Taxi 5355 data sent: {"id":5355,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 7426 position updated to (4, 10)
+Taxi 7426 data sent: {"id":7426,"x":4,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 3366 returned to original position (5, 0) and is now available.
+Taxi 3366 data sent: {"id":3366,"x":5,"y":0,"speed":0,"numberOfServices":2,"available":true}
+Taxi 9886 returned to original position (6, 1) and is now available.
+Taxi 9886 data sent: {"id":9886,"x":6,"y":1,"speed":1,"numberOfServices":2,"available":true}
+Taxi 1892 has no services left and will be disconnected.
+Taxi 5161 returned to original position (2, 6) and is now available.
+Taxi 5161 data sent: {"id":5161,"x":2,"y":6,"speed":1,"numberOfServices":1,"available":true}
+Taxi 5952 returned to original position (8, 2) and is now available.
+Taxi 5952 data sent: {"id":5952,"x":8,"y":2,"speed":1,"numberOfServices":2,"available":true}
+Taxi 9481 returned to original position (1, 3) and is now available.
+Taxi 9481 data sent: {"id":9481,"x":1,"y":3,"speed":4,"numberOfServices":1,"available":true}
+Taxi 5858 returned to original position (3, 7) and is now available.
+Taxi 5858 data sent: {"id":5858,"x":3,"y":7,"speed":0,"numberOfServices":1,"available":true}
+Taxi 399 returned to original position (0, 9) and is now available.
+Taxi 399 data sent: {"id":399,"x":0,"y":9,"speed":0,"numberOfServices":1,"available":true}
+Taxi 9886 position updated to (7, 1)
+Taxi 9886 data sent: {"id":9886,"x":7,"y":1,"speed":1,"numberOfServices":2,"available":true}
+Taxi 399 data sent: {"id":399,"x":0,"y":9,"speed":0,"numberOfServices":1,"available":true}
+Taxi 9481 position updated to (1, 7)
+Taxi 9481 data sent: {"id":9481,"x":1,"y":7,"speed":4,"numberOfServices":1,"available":true}
+Taxi 5161 position updated to (2, 7)
+Taxi 5161 data sent: {"id":5161,"x":2,"y":7,"speed":1,"numberOfServices":1,"available":true}
+Taxi 3366 data sent: {"id":3366,"x":5,"y":0,"speed":0,"numberOfServices":2,"available":true}
+Taxi 5858 data sent: {"id":5858,"x":3,"y":7,"speed":0,"numberOfServices":1,"available":true}
+Taxi 5355 position updated to (10, 10)
+Taxi 5355 data sent: {"id":5355,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 5952 position updated to (9, 2)
+Taxi 5952 data sent: {"id":5952,"x":9,"y":2,"speed":1,"numberOfServices":2,"available":true}
+Taxi 7426 position updated to (4, 10)
+Taxi 7426 data sent: {"id":7426,"x":4,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 9886 position updated to (8, 1)
+Taxi 9886 data sent: {"id":9886,"x":8,"y":1,"speed":1,"numberOfServices":2,"available":true}
+Taxi 399 data sent: {"id":399,"x":0,"y":9,"speed":0,"numberOfServices":1,"available":true}
+Taxi 9481 position updated to (5, 7)
+Taxi 9481 data sent: {"id":9481,"x":5,"y":7,"speed":4,"numberOfServices":1,"available":true}
+Taxi 5161 position updated to (2, 8)
+Taxi 5161 data sent: {"id":5161,"x":2,"y":8,"speed":1,"numberOfServices":1,"available":true}
+Taxi 3366 data sent: {"id":3366,"x":5,"y":0,"speed":0,"numberOfServices":2,"available":true}
+Taxi 5858 data sent: {"id":5858,"x":3,"y":7,"speed":0,"numberOfServices":1,"available":true}
+Taxi 5355 position updated to (10, 10)
+Taxi 5355 data sent: {"id":5355,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 5952 position updated to (9, 3)
+Taxi 5952 data sent: {"id":5952,"x":9,"y":3,"speed":1,"numberOfServices":2,"available":true}
+Taxi 7426 position updated to (8, 10)
+Taxi 7426 data sent: {"id":7426,"x":8,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 3573 bound to port 4005
+Taxi 3573 data sent: {"id":3573,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 5835 bound to port 4001
+Taxi 5835 data sent: {"id":5835,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 693 bound to port 4003
+Taxi 693 data sent: {"id":693,"x":1,"y":3,"speed":4,"numberOfServices":2,"available":true}
+Taxi 5001 bound to port 4002
+Taxi 5001 data sent: {"id":5001,"x":4,"y":3,"speed":2,"numberOfServices":1,"available":true}
+Taxi 8428 bound to port 4007
+Taxi 8428 data sent: {"id":8428,"x":2,"y":6,"speed":1,"numberOfServices":2,"available":true}
+Taxi 1329 bound to port 4004
+Taxi 1329 data sent: {"id":1329,"x":8,"y":2,"speed":1,"numberOfServices":3,"available":true}
+Taxi 364 bound to port 4000
+Taxi 364 data sent: {"id":364,"x":6,"y":1,"speed":1,"numberOfServices":3,"available":true}
+Taxi 7487 bound to port 4006
+Taxi 7487 data sent: {"id":7487,"x":7,"y":4,"speed":4,"numberOfServices":1,"available":true}
+Taxi 505 bound to port 4008
+Taxi 505 data sent: {"id":505,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 7402 bound to port 4009
+Taxi 7402 data sent: {"id":7402,"x":4,"y":8,"speed":4,"numberOfServices":2,"available":true}
+Taxi 3573 data sent: {"id":3573,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 5835 data sent: {"id":5835,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 693 position updated to (5, 3)
+Taxi 693 data sent: {"id":693,"x":5,"y":3,"speed":4,"numberOfServices":2,"available":true}
+Taxi 5001 position updated to (6, 3)
+Taxi 5001 data sent: {"id":5001,"x":6,"y":3,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1329 position updated to (8, 3)
+Taxi 8428 position updated to (3, 6)
+Taxi 1329 data sent: {"id":1329,"x":8,"y":3,"speed":1,"numberOfServices":3,"available":true}
+Taxi 8428 data sent: {"id":8428,"x":3,"y":6,"speed":1,"numberOfServices":2,"available":true}
+Taxi 364 position updated to (6, 2)
+Taxi 364 data sent: {"id":364,"x":6,"y":2,"speed":1,"numberOfServices":3,"available":true}
+Taxi 7487 position updated to (10, 4)
+Taxi 7487 data sent: {"id":7487,"x":10,"y":4,"speed":4,"numberOfServices":1,"available":true}
+Taxi 505 data sent: {"id":505,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 7402 position updated to (8, 8)
+Taxi 7402 data sent: {"id":7402,"x":8,"y":8,"speed":4,"numberOfServices":2,"available":true}
+Taxi 3573 data sent: {"id":3573,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 5835 data sent: {"id":5835,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 693 position updated to (9, 3)
+Taxi 693 data sent: {"id":693,"x":9,"y":3,"speed":4,"numberOfServices":2,"available":true}
+Taxi 5001 position updated to (6, 5)
+Taxi 5001 data sent: {"id":5001,"x":6,"y":5,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1329 position updated to (8, 4)
+Taxi 1329 data sent: {"id":1329,"x":8,"y":4,"speed":1,"numberOfServices":3,"available":true}
+Taxi 8428 position updated to (4, 6)
+Taxi 8428 data sent: {"id":8428,"x":4,"y":6,"speed":1,"numberOfServices":2,"available":true}
+Taxi 364 position updated to (7, 2)
+Taxi 364 data sent: {"id":364,"x":7,"y":2,"speed":1,"numberOfServices":3,"available":true}
+Taxi 7487 position updated to (10, 8)
+Taxi 7487 data sent: {"id":7487,"x":10,"y":8,"speed":4,"numberOfServices":1,"available":true}
+Taxi 505 data sent: {"id":505,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 7402 position updated to (8, 10)
+Taxi 7402 data sent: {"id":7402,"x":8,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 3573 data sent: {"id":3573,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 5835 data sent: {"id":5835,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 693 position updated to (10, 3)
+Taxi 693 data sent: {"id":693,"x":10,"y":3,"speed":4,"numberOfServices":2,"available":true}
+Taxi 5001 position updated to (8, 5)
+Taxi 5001 data sent: {"id":5001,"x":8,"y":5,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1329 position updated to (9, 4)
+Taxi 1329 data sent: {"id":1329,"x":9,"y":4,"speed":1,"numberOfServices":3,"available":true}
+Taxi 8428 position updated to (5, 6)
+Taxi 8428 data sent: {"id":8428,"x":5,"y":6,"speed":1,"numberOfServices":2,"available":true}
+Taxi 364 position updated to (8, 2)
+Taxi 364 data sent: {"id":364,"x":8,"y":2,"speed":1,"numberOfServices":3,"available":true}
+Taxi 7487 position updated to (10, 10)
+Taxi 7487 data sent: {"id":7487,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 505 data sent: {"id":505,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 7402 position updated to (8, 10)
+Taxi 7402 data sent: {"id":7402,"x":8,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 3573 data sent: {"id":3573,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 5835 data sent: {"id":5835,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 693 position updated to (10, 7)
+Taxi 693 data sent: {"id":693,"x":10,"y":7,"speed":4,"numberOfServices":2,"available":true}
+Taxi 5001 position updated to (8, 7)
+Taxi 5001 data sent: {"id":5001,"x":8,"y":7,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1329 position updated to (9, 5)
+Taxi 1329 data sent: {"id":1329,"x":9,"y":5,"speed":1,"numberOfServices":3,"available":true}
+Taxi 8428 position updated to (5, 7)
+Taxi 8428 data sent: {"id":8428,"x":5,"y":7,"speed":1,"numberOfServices":2,"available":true}
+Taxi 364 position updated to (9, 2)
+Taxi 364 data sent: {"id":364,"x":9,"y":2,"speed":1,"numberOfServices":3,"available":true}
+Taxi 7487 position updated to (10, 10)
+Taxi 7487 data sent: {"id":7487,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 505 data sent: {"id":505,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 7402 position updated to (8, 10)
+Taxi 7402 data sent: {"id":7402,"x":8,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 3573 data sent: {"id":3573,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 5835 data sent: {"id":5835,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 693 position updated to (10, 7)
+Taxi 693 data sent: {"id":693,"x":10,"y":7,"speed":4,"numberOfServices":2,"available":true}
+Taxi 5001 position updated to (8, 9)
+Taxi 5001 data sent: {"id":5001,"x":8,"y":9,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1329 position updated to (9, 6)
+Taxi 1329 data sent: {"id":1329,"x":9,"y":6,"speed":1,"numberOfServices":3,"available":true}
+Taxi 8428 position updated to (6, 7)
+Taxi 8428 data sent: {"id":8428,"x":6,"y":7,"speed":1,"numberOfServices":2,"available":true}
+Taxi 364 position updated to (10, 2)
+Taxi 364 data sent: {"id":364,"x":10,"y":2,"speed":1,"numberOfServices":3,"available":true}
+Taxi 7487 position updated to (10, 10)
+Taxi 7487 data sent: {"id":7487,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 505 data sent: {"id":505,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 7402 position updated to (10, 10)
+Taxi 7402 data sent: {"id":7402,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 3573 data sent: {"id":3573,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 5835 data sent: {"id":5835,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 693 position updated to (10, 10)
+Taxi 693 data sent: {"id":693,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 5001 position updated to (8, 10)
+Taxi 5001 data sent: {"id":5001,"x":8,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1329 position updated to (9, 7)
+Taxi 1329 data sent: {"id":1329,"x":9,"y":7,"speed":1,"numberOfServices":3,"available":true}
+Taxi 8428 position updated to (7, 7)
+Taxi 8428 data sent: {"id":8428,"x":7,"y":7,"speed":1,"numberOfServices":2,"available":true}
+Taxi 364 position updated to (10, 2)
+Taxi 364 data sent: {"id":364,"x":10,"y":2,"speed":1,"numberOfServices":3,"available":true}
+Taxi 7487 position updated to (10, 10)
+Taxi 7487 data sent: {"id":7487,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 505 data sent: {"id":505,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 7402 position updated to (10, 10)
+Taxi 7402 data sent: {"id":7402,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 3573 data sent: {"id":3573,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 5835 data sent: {"id":5835,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 693 position updated to (10, 10)
+Taxi 693 data sent: {"id":693,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 5001 position updated to (8, 10)
+Taxi 5001 data sent: {"id":5001,"x":8,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1329 position updated to (10, 7)
+Taxi 1329 data sent: {"id":1329,"x":10,"y":7,"speed":1,"numberOfServices":3,"available":true}
+Taxi 8428 position updated to (8, 7)
+Taxi 8428 data sent: {"id":8428,"x":8,"y":7,"speed":1,"numberOfServices":2,"available":true}
+Taxi 364 position updated to (10, 3)
+Taxi 364 data sent: {"id":364,"x":10,"y":3,"speed":1,"numberOfServices":3,"available":true}
+Taxi 7487 position updated to (10, 10)
+Taxi 7487 data sent: {"id":7487,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 505 data sent: {"id":505,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 7402 position updated to (10, 10)
+Taxi 7402 data sent: {"id":7402,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 3573 data sent: {"id":3573,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 5835 data sent: {"id":5835,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 693 position updated to (10, 10)
+Taxi 693 data sent: {"id":693,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 5001 position updated to (10, 10)
+Taxi 5001 data sent: {"id":5001,"x":10,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1329 position updated to (10, 7)
+Taxi 1329 data sent: {"id":1329,"x":10,"y":7,"speed":1,"numberOfServices":3,"available":true}
+Taxi 8428 position updated to (8, 8)
+Taxi 8428 data sent: {"id":8428,"x":8,"y":8,"speed":1,"numberOfServices":2,"available":true}
+Taxi 364 position updated to (10, 4)
+Taxi 364 data sent: {"id":364,"x":10,"y":4,"speed":1,"numberOfServices":3,"available":true}
+Taxi 7487 position updated to (10, 10)
+Taxi 7487 data sent: {"id":7487,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 505 data sent: {"id":505,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 7402 position updated to (10, 10)
+Taxi 7402 data sent: {"id":7402,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 3573 data sent: {"id":3573,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 5835 data sent: {"id":5835,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 693 position updated to (10, 10)
+Taxi 693 data sent: {"id":693,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 5001 position updated to (10, 10)
+Taxi 5001 data sent: {"id":5001,"x":10,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1329 position updated to (10, 7)
+Taxi 1329 data sent: {"id":1329,"x":10,"y":7,"speed":1,"numberOfServices":3,"available":true}
+Taxi 8428 position updated to (8, 9)
+Taxi 8428 data sent: {"id":8428,"x":8,"y":9,"speed":1,"numberOfServices":2,"available":true}
+Taxi 364 position updated to (10, 4)
+Taxi 364 data sent: {"id":364,"x":10,"y":4,"speed":1,"numberOfServices":3,"available":true}
+Taxi 7487 position updated to (10, 10)
+Taxi 7487 data sent: {"id":7487,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 505 data sent: {"id":505,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 7402 position updated to (10, 10)
+Taxi 7402 data sent: {"id":7402,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 3573 data sent: {"id":3573,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 5835 data sent: {"id":5835,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 693 position updated to (10, 10)
+Taxi 693 data sent: {"id":693,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 5001 position updated to (10, 10)
+Taxi 5001 data sent: {"id":5001,"x":10,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1329 position updated to (10, 7)
+Taxi 1329 data sent: {"id":1329,"x":10,"y":7,"speed":1,"numberOfServices":3,"available":true}
+Taxi 8428 position updated to (9, 9)
+Taxi 8428 data sent: {"id":8428,"x":9,"y":9,"speed":1,"numberOfServices":2,"available":true}
+Taxi 364 position updated to (10, 4)
+Taxi 364 data sent: {"id":364,"x":10,"y":4,"speed":1,"numberOfServices":3,"available":true}
+Taxi 7487 position updated to (10, 10)
+Taxi 7487 data sent: {"id":7487,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 505 data sent: {"id":505,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 7402 position updated to (10, 10)
+Taxi 7402 data sent: {"id":7402,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 3573 data sent: {"id":3573,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 5835 data sent: {"id":5835,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 693 position updated to (10, 10)
+Taxi 693 data sent: {"id":693,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 5001 position updated to (10, 10)
+Taxi 5001 data sent: {"id":5001,"x":10,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1329 position updated to (10, 8)
+Taxi 1329 data sent: {"id":1329,"x":10,"y":8,"speed":1,"numberOfServices":3,"available":true}
+Taxi 8428 position updated to (9, 10)
+Taxi 8428 data sent: {"id":8428,"x":9,"y":10,"speed":1,"numberOfServices":2,"available":true}
+Taxi 364 position updated to (10, 5)
+Taxi 364 data sent: {"id":364,"x":10,"y":5,"speed":1,"numberOfServices":3,"available":true}
+Taxi 7487 position updated to (10, 10)
+Taxi 7487 data sent: {"id":7487,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 505 data sent: {"id":505,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 7402 position updated to (10, 10)
+Taxi 7402 data sent: {"id":7402,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 3573 data sent: {"id":3573,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 5835 data sent: {"id":5835,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 693 position updated to (10, 10)
+Taxi 693 data sent: {"id":693,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 5001 position updated to (10, 10)
+Taxi 5001 data sent: {"id":5001,"x":10,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1329 position updated to (10, 8)
+Taxi 1329 data sent: {"id":1329,"x":10,"y":8,"speed":1,"numberOfServices":3,"available":true}
+Taxi 8428 position updated to (9, 10)
+Taxi 8428 data sent: {"id":8428,"x":9,"y":10,"speed":1,"numberOfServices":2,"available":true}
+Taxi 364 position updated to (10, 5)
+Taxi 364 data sent: {"id":364,"x":10,"y":5,"speed":1,"numberOfServices":3,"available":true}
+Taxi 7487 position updated to (10, 10)
+Taxi 7487 data sent: {"id":7487,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 505 data sent: {"id":505,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 7402 position updated to (10, 10)
+Taxi 7402 data sent: {"id":7402,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 3573 data sent: {"id":3573,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 5835 data sent: {"id":5835,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 693 position updated to (10, 10)
+Taxi 693 data sent: {"id":693,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 5001 position updated to (10, 10)
+Taxi 5001 data sent: {"id":5001,"x":10,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1329 position updated to (10, 8)
+Taxi 1329 data sent: {"id":1329,"x":10,"y":8,"speed":1,"numberOfServices":3,"available":true}
+Taxi 8428 position updated to (9, 10)
+Taxi 8428 data sent: {"id":8428,"x":9,"y":10,"speed":1,"numberOfServices":2,"available":true}
+Taxi 364 position updated to (10, 6)
+Taxi 364 data sent: {"id":364,"x":10,"y":6,"speed":1,"numberOfServices":3,"available":true}
+Taxi 505 data sent: {"id":505,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 7487 position updated to (10, 10)
+Taxi 7487 data sent: {"id":7487,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 7402 position updated to (10, 10)
+Taxi 7402 data sent: {"id":7402,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 3573 data sent: {"id":3573,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 5835 data sent: {"id":5835,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 693 position updated to (10, 10)
+Taxi 693 data sent: {"id":693,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 5001 position updated to (10, 10)
+Taxi 5001 data sent: {"id":5001,"x":10,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1329 position updated to (10, 9)
+Taxi 1329 data sent: {"id":1329,"x":10,"y":9,"speed":1,"numberOfServices":3,"available":true}
+Taxi 8428 position updated to (10, 10)
+Taxi 8428 data sent: {"id":8428,"x":10,"y":10,"speed":1,"numberOfServices":2,"available":true}
+Taxi 364 position updated to (10, 7)
+Taxi 364 data sent: {"id":364,"x":10,"y":7,"speed":1,"numberOfServices":3,"available":true}
+Taxi 505 data sent: {"id":505,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 7487 position updated to (10, 10)
+Taxi 7487 data sent: {"id":7487,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 7402 position updated to (10, 10)
+Taxi 7402 data sent: {"id":7402,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 3573 data sent: {"id":3573,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 5835 data sent: {"id":5835,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 693 position updated to (10, 10)
+Taxi 693 data sent: {"id":693,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 5001 position updated to (10, 10)
+Taxi 5001 data sent: {"id":5001,"x":10,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1329 position updated to (10, 9)
+Taxi 1329 data sent: {"id":1329,"x":10,"y":9,"speed":1,"numberOfServices":3,"available":true}
+Taxi 8428 position updated to (10, 10)
+Taxi 8428 data sent: {"id":8428,"x":10,"y":10,"speed":1,"numberOfServices":2,"available":true}
+Taxi 364 position updated to (10, 8)
+Taxi 364 data sent: {"id":364,"x":10,"y":8,"speed":1,"numberOfServices":3,"available":true}
+Taxi 505 data sent: {"id":505,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 7487 position updated to (10, 10)
+Taxi 7487 data sent: {"id":7487,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 7402 position updated to (10, 10)
+Taxi 7402 data sent: {"id":7402,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 3573 data sent: {"id":3573,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 5835 data sent: {"id":5835,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 693 position updated to (10, 10)
+Taxi 693 data sent: {"id":693,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 5001 position updated to (10, 10)
+Taxi 5001 data sent: {"id":5001,"x":10,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1329 position updated to (10, 9)
+Taxi 1329 data sent: {"id":1329,"x":10,"y":9,"speed":1,"numberOfServices":3,"available":true}
+Taxi 8428 position updated to (10, 10)
+Taxi 8428 data sent: {"id":8428,"x":10,"y":10,"speed":1,"numberOfServices":2,"available":true}
+Taxi 364 position updated to (10, 8)
+Taxi 364 data sent: {"id":364,"x":10,"y":8,"speed":1,"numberOfServices":3,"available":true}
+Taxi 505 data sent: {"id":505,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 7487 position updated to (10, 10)
+Taxi 7487 data sent: {"id":7487,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 7402 position updated to (10, 10)
+Taxi 7402 data sent: {"id":7402,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 3573 data sent: {"id":3573,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 5835 data sent: {"id":5835,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 693 position updated to (10, 10)
+Taxi 693 data sent: {"id":693,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 5001 position updated to (10, 10)
+Taxi 5001 data sent: {"id":5001,"x":10,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1329 position updated to (10, 9)
+Taxi 1329 data sent: {"id":1329,"x":10,"y":9,"speed":1,"numberOfServices":3,"available":true}
+Taxi 8428 position updated to (10, 10)
+Taxi 8428 data sent: {"id":8428,"x":10,"y":10,"speed":1,"numberOfServices":2,"available":true}
+Taxi 364 position updated to (10, 8)
+Taxi 505 data sent: {"id":505,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 364 data sent: {"id":364,"x":10,"y":8,"speed":1,"numberOfServices":3,"available":true}
+Taxi 7487 position updated to (10, 10)
+Taxi 7487 data sent: {"id":7487,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 7402 position updated to (10, 10)
+Taxi 7402 data sent: {"id":7402,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 3573 data sent: {"id":3573,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 5835 data sent: {"id":5835,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 693 position updated to (10, 10)
+Taxi 693 data sent: {"id":693,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 5001 position updated to (10, 10)
+Taxi 5001 data sent: {"id":5001,"x":10,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1329 position updated to (10, 10)
+Taxi 1329 data sent: {"id":1329,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 8428 position updated to (10, 10)
+Taxi 8428 data sent: {"id":8428,"x":10,"y":10,"speed":1,"numberOfServices":2,"available":true}
+Taxi 505 data sent: {"id":505,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 364 position updated to (10, 9)
+Taxi 364 data sent: {"id":364,"x":10,"y":9,"speed":1,"numberOfServices":3,"available":true}
+Taxi 7487 position updated to (10, 10)
+Taxi 7487 data sent: {"id":7487,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 7402 position updated to (10, 10)
+Taxi 7402 data sent: {"id":7402,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 3573 data sent: {"id":3573,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 5835 data sent: {"id":5835,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 693 position updated to (10, 10)
+Taxi 693 data sent: {"id":693,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 5001 position updated to (10, 10)
+Taxi 5001 data sent: {"id":5001,"x":10,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1329 position updated to (10, 10)
+Taxi 1329 data sent: {"id":1329,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 8428 position updated to (10, 10)
+Taxi 8428 data sent: {"id":8428,"x":10,"y":10,"speed":1,"numberOfServices":2,"available":true}
+Taxi 364 position updated to (10, 10)
+Taxi 364 data sent: {"id":364,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 505 data sent: {"id":505,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 7487 position updated to (10, 10)
+Taxi 7487 data sent: {"id":7487,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 7402 position updated to (10, 10)
+Taxi 7402 data sent: {"id":7402,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 3573 data sent: {"id":3573,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 5835 data sent: {"id":5835,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 693 position updated to (10, 10)
+Taxi 693 data sent: {"id":693,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 5001 position updated to (10, 10)
+Taxi 5001 data sent: {"id":5001,"x":10,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1329 position updated to (10, 10)
+Taxi 1329 data sent: {"id":1329,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 8428 position updated to (10, 10)
+Taxi 8428 data sent: {"id":8428,"x":10,"y":10,"speed":1,"numberOfServices":2,"available":true}
+Taxi 364 position updated to (10, 10)
+Taxi 364 data sent: {"id":364,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 505 data sent: {"id":505,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 7487 position updated to (10, 10)
+Taxi 7487 data sent: {"id":7487,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 7402 position updated to (10, 10)
+Taxi 7402 data sent: {"id":7402,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 3573 data sent: {"id":3573,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 5835 data sent: {"id":5835,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 693 position updated to (10, 10)
+Taxi 693 data sent: {"id":693,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 5001 position updated to (10, 10)
+Taxi 5001 data sent: {"id":5001,"x":10,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1329 position updated to (10, 10)
+Taxi 1329 data sent: {"id":1329,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 8428 position updated to (10, 10)
+Taxi 8428 data sent: {"id":8428,"x":10,"y":10,"speed":1,"numberOfServices":2,"available":true}
+Taxi 364 position updated to (10, 10)
+Taxi 364 data sent: {"id":364,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 505 data sent: {"id":505,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 7487 position updated to (10, 10)
+Taxi 7487 data sent: {"id":7487,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 7402 position updated to (10, 10)
+Taxi 7402 data sent: {"id":7402,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 3573 data sent: {"id":3573,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 5835 data sent: {"id":5835,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 693 position updated to (10, 10)
+Taxi 693 data sent: {"id":693,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 5001 position updated to (10, 10)
+Taxi 5001 data sent: {"id":5001,"x":10,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1329 position updated to (10, 10)
+Taxi 1329 data sent: {"id":1329,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 8428 position updated to (10, 10)
+Taxi 8428 data sent: {"id":8428,"x":10,"y":10,"speed":1,"numberOfServices":2,"available":true}
+Taxi 364 position updated to (10, 10)
+Taxi 364 data sent: {"id":364,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 505 data sent: {"id":505,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 7487 position updated to (10, 10)
+Taxi 7487 data sent: {"id":7487,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 7402 position updated to (10, 10)
+Taxi 7402 data sent: {"id":7402,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 3573 data sent: {"id":3573,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 5835 data sent: {"id":5835,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 693 position updated to (10, 10)
+Taxi 693 data sent: {"id":693,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 5001 position updated to (10, 10)
+Taxi 5001 data sent: {"id":5001,"x":10,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1329 position updated to (10, 10)
+Taxi 1329 data sent: {"id":1329,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 8428 position updated to (10, 10)
+Taxi 8428 data sent: {"id":8428,"x":10,"y":10,"speed":1,"numberOfServices":2,"available":true}
+Taxi 364 position updated to (10, 10)
+Taxi 364 data sent: {"id":364,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 505 data sent: {"id":505,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 7487 position updated to (10, 10)
+Taxi 7487 data sent: {"id":7487,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 7402 position updated to (10, 10)
+Taxi 7402 data sent: {"id":7402,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 3573 data sent: {"id":3573,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 5835 data sent: {"id":5835,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 693 position updated to (10, 10)
+Taxi 693 data sent: {"id":693,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 5001 position updated to (10, 10)
+Taxi 5001 data sent: {"id":5001,"x":10,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1329 position updated to (10, 10)
+Taxi 1329 data sent: {"id":1329,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 8428 position updated to (10, 10)
+Taxi 8428 data sent: {"id":8428,"x":10,"y":10,"speed":1,"numberOfServices":2,"available":true}
+Taxi 364 position updated to (10, 10)
+Taxi 364 data sent: {"id":364,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 505 data sent: {"id":505,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 7487 position updated to (10, 10)
+Taxi 7487 data sent: {"id":7487,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 7402 position updated to (10, 10)
+Taxi 7402 data sent: {"id":7402,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 3573 data sent: {"id":3573,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 5835 data sent: {"id":5835,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 693 position updated to (10, 10)
+Taxi 693 data sent: {"id":693,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 5001 position updated to (10, 10)
+Taxi 5001 data sent: {"id":5001,"x":10,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1329 position updated to (10, 10)
+Taxi 1329 data sent: {"id":1329,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 8428 position updated to (10, 10)
+Taxi 8428 data sent: {"id":8428,"x":10,"y":10,"speed":1,"numberOfServices":2,"available":true}
+Taxi 364 position updated to (10, 10)
+Taxi 364 data sent: {"id":364,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 505 data sent: {"id":505,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 7487 position updated to (10, 10)
+Taxi 7487 data sent: {"id":7487,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 7402 position updated to (10, 10)
+Taxi 7402 data sent: {"id":7402,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 3573 data sent: {"id":3573,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 5835 data sent: {"id":5835,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 693 position updated to (10, 10)
+Taxi 693 data sent: {"id":693,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 5001 position updated to (10, 10)
+Taxi 5001 data sent: {"id":5001,"x":10,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1329 position updated to (10, 10)
+Taxi 1329 data sent: {"id":1329,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 8428 position updated to (10, 10)
+Taxi 8428 data sent: {"id":8428,"x":10,"y":10,"speed":1,"numberOfServices":2,"available":true}
+Taxi 364 position updated to (10, 10)
+Taxi 364 data sent: {"id":364,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 505 data sent: {"id":505,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 7487 position updated to (10, 10)
+Taxi 7487 data sent: {"id":7487,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 7402 position updated to (10, 10)
+Taxi 7402 data sent: {"id":7402,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 3573 data sent: {"id":3573,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 5835 data sent: {"id":5835,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 693 position updated to (10, 10)
+Taxi 693 data sent: {"id":693,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 5001 position updated to (10, 10)
+Taxi 5001 data sent: {"id":5001,"x":10,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1329 position updated to (10, 10)
+Taxi 1329 data sent: {"id":1329,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 8428 position updated to (10, 10)
+Taxi 8428 data sent: {"id":8428,"x":10,"y":10,"speed":1,"numberOfServices":2,"available":true}
+Taxi 364 position updated to (10, 10)
+Taxi 364 data sent: {"id":364,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 505 data sent: {"id":505,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 7487 position updated to (10, 10)
+Taxi 7487 data sent: {"id":7487,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 7402 position updated to (10, 10)
+Taxi 7402 data sent: {"id":7402,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 3573 data sent: {"id":3573,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 5835 data sent: {"id":5835,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 693 position updated to (10, 10)
+Taxi 693 data sent: {"id":693,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 5001 position updated to (10, 10)
+Taxi 5001 data sent: {"id":5001,"x":10,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1329 position updated to (10, 10)
+Taxi 1329 data sent: {"id":1329,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 8428 position updated to (10, 10)
+Taxi 8428 data sent: {"id":8428,"x":10,"y":10,"speed":1,"numberOfServices":2,"available":true}
+Taxi 364 position updated to (10, 10)
+Taxi 364 data sent: {"id":364,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 505 data sent: {"id":505,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 7487 position updated to (10, 10)
+Taxi 7487 data sent: {"id":7487,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 7402 position updated to (10, 10)
+Taxi 7402 data sent: {"id":7402,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 3573 data sent: {"id":3573,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 5835 data sent: {"id":5835,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 693 position updated to (10, 10)
+Taxi 693 data sent: {"id":693,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 5001 position updated to (10, 10)
+Taxi 5001 data sent: {"id":5001,"x":10,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1329 position updated to (10, 10)
+Taxi 1329 data sent: {"id":1329,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 8428 position updated to (10, 10)
+Taxi 8428 data sent: {"id":8428,"x":10,"y":10,"speed":1,"numberOfServices":2,"available":true}
+Taxi 364 position updated to (10, 10)
+Taxi 364 data sent: {"id":364,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 505 data sent: {"id":505,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 7487 position updated to (10, 10)
+Taxi 7487 data sent: {"id":7487,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 7402 position updated to (10, 10)
+Taxi 7402 data sent: {"id":7402,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 3573 data sent: {"id":3573,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 5835 data sent: {"id":5835,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 693 position updated to (10, 10)
+Taxi 693 data sent: {"id":693,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 5001 position updated to (10, 10)
+Taxi 5001 data sent: {"id":5001,"x":10,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1329 position updated to (10, 10)
+Taxi 1329 data sent: {"id":1329,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 8428 position updated to (10, 10)
+Taxi 8428 data sent: {"id":8428,"x":10,"y":10,"speed":1,"numberOfServices":2,"available":true}
+Taxi 364 position updated to (10, 10)
+Taxi 364 data sent: {"id":364,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 505 data sent: {"id":505,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 7487 position updated to (10, 10)
+Taxi 7487 data sent: {"id":7487,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 7402 position updated to (10, 10)
+Taxi 7402 data sent: {"id":7402,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 3573 data sent: {"id":3573,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 5835 data sent: {"id":5835,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 693 position updated to (10, 10)
+Taxi 693 data sent: {"id":693,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 5001 position updated to (10, 10)
+Taxi 5001 data sent: {"id":5001,"x":10,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1329 position updated to (10, 10)
+Taxi 1329 data sent: {"id":1329,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 8428 position updated to (10, 10)
+Taxi 8428 data sent: {"id":8428,"x":10,"y":10,"speed":1,"numberOfServices":2,"available":true}
+Taxi 364 position updated to (10, 10)
+Taxi 364 data sent: {"id":364,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 505 data sent: {"id":505,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 7487 position updated to (10, 10)
+Taxi 7487 data sent: {"id":7487,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 7402 position updated to (10, 10)
+Taxi 7402 data sent: {"id":7402,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 3573 data sent: {"id":3573,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 5835 data sent: {"id":5835,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 693 position updated to (10, 10)
+Taxi 693 data sent: {"id":693,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 5001 position updated to (10, 10)
+Taxi 5001 data sent: {"id":5001,"x":10,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1329 position updated to (10, 10)
+Taxi 1329 data sent: {"id":1329,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 8428 position updated to (10, 10)
+Taxi 8428 data sent: {"id":8428,"x":10,"y":10,"speed":1,"numberOfServices":2,"available":true}
+Taxi 364 position updated to (10, 10)
+Taxi 364 data sent: {"id":364,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 505 data sent: {"id":505,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 7487 position updated to (10, 10)
+Taxi 7487 data sent: {"id":7487,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 7402 position updated to (10, 10)
+Taxi 7402 data sent: {"id":7402,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 3573 data sent: {"id":3573,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 5835 data sent: {"id":5835,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 693 position updated to (10, 10)
+Taxi 693 data sent: {"id":693,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 5001 position updated to (10, 10)
+Taxi 5001 data sent: {"id":5001,"x":10,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1329 position updated to (10, 10)
+Taxi 1329 data sent: {"id":1329,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 8428 position updated to (10, 10)
+Taxi 8428 data sent: {"id":8428,"x":10,"y":10,"speed":1,"numberOfServices":2,"available":true}
+Taxi 364 position updated to (10, 10)
+Taxi 364 data sent: {"id":364,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 505 data sent: {"id":505,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 7487 position updated to (10, 10)
+Taxi 7487 data sent: {"id":7487,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 7402 position updated to (10, 10)
+Taxi 7402 data sent: {"id":7402,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 3573 data sent: {"id":3573,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 5835 data sent: {"id":5835,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 693 position updated to (10, 10)
+Taxi 693 data sent: {"id":693,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 5001 position updated to (10, 10)
+Taxi 5001 data sent: {"id":5001,"x":10,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1329 position updated to (10, 10)
+Taxi 1329 data sent: {"id":1329,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 8428 position updated to (10, 10)
+Taxi 8428 data sent: {"id":8428,"x":10,"y":10,"speed":1,"numberOfServices":2,"available":true}
+Taxi 364 position updated to (10, 10)
+Taxi 364 data sent: {"id":364,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 505 data sent: {"id":505,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 7487 position updated to (10, 10)
+Taxi 7487 data sent: {"id":7487,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 7402 position updated to (10, 10)
+Taxi 7402 data sent: {"id":7402,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 3573 data sent: {"id":3573,"x":0,"y":9,"speed":0,"numberOfServices":2,"available":true}
+Taxi 5835 data sent: {"id":5835,"x":3,"y":7,"speed":0,"numberOfServices":2,"available":true}
+Taxi 693 position updated to (10, 10)
+Taxi 693 data sent: {"id":693,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
+Taxi 5001 position updated to (10, 10)
+Taxi 5001 data sent: {"id":5001,"x":10,"y":10,"speed":2,"numberOfServices":1,"available":true}
+Taxi 1329 position updated to (10, 10)
+Taxi 1329 data sent: {"id":1329,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 8428 position updated to (10, 10)
+Taxi 8428 data sent: {"id":8428,"x":10,"y":10,"speed":1,"numberOfServices":2,"available":true}
+Taxi 364 position updated to (10, 10)
+Taxi 364 data sent: {"id":364,"x":10,"y":10,"speed":1,"numberOfServices":3,"available":true}
+Taxi 505 data sent: {"id":505,"x":5,"y":0,"speed":0,"numberOfServices":3,"available":true}
+Taxi 7487 position updated to (10, 10)
+Taxi 7487 data sent: {"id":7487,"x":10,"y":10,"speed":4,"numberOfServices":1,"available":true}
+Taxi 7402 position updated to (10, 10)
+Taxi 7402 data sent: {"id":7402,"x":10,"y":10,"speed":4,"numberOfServices":2,"available":true}
