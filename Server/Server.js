@@ -11,16 +11,20 @@ const taxis = [];
 async function iniciarServidor() {
   // Bind the Reply socket to port 3000 to listen for user requests
   await sock.bind("tcp://*:3000");
-  console.log("Servidor central escuchando en el puerto 3000...");
+  console.log(
+    "Server listening to user's requests and replying on port 3000 (Request-Reply)"
+  );
 
   // Bind the Publisher socket to port 5000 for sending notifications
-  await publisher.bind("tcp://*:5001");
-  console.log("Servidor publicando notificaciones en el puerto 5000...");
+  await publisher.bind("tcp://*:5000");
+  console.log(
+    "Server publishing taxis' information updates on port 5000 (Publisher-Subscriber)"
+  );
 
   // Bind the notification socket to port 6000 for receiving taxi port notifications
   await notificationSock.bind("tcp://*:6000");
   console.log(
-    "Servidor escuchando notificaciones de taxis en el puerto 6000..."
+    "Server listening to taxi's information (taxi ID and port) and replying on port 6000 (Request-Reply)"
   );
 
   // Subscribe to the taxi data topic
@@ -31,7 +35,7 @@ async function iniciarServidor() {
 async function handleTaxiData() {
   for await (const [topic, msg] of subscriber) {
     const taxiData = JSON.parse(msg.toString());
-    console.log(`Datos recibidos del taxi: ${JSON.stringify(taxiData)}`);
+    // console.log(`Datos recibidos del taxi: ${JSON.stringify(taxiData)}`);
 
     // Update the taxi information in the taxis array
     let taxi = taxis.find((t) => t.id === taxiData.id);
@@ -42,15 +46,25 @@ async function handleTaxiData() {
       taxi.numberOfServices = taxiData.numberOfServices;
     } else {
       // Add new taxi if it doesn't exist
-      taxis.push({
+      taxi = {
         id: taxiData.id,
         x: taxiData.x,
         y: taxiData.y,
         libre: taxiData.available,
         numberOfServices: taxiData.numberOfServices,
-      });
+      };
+      taxis.push(taxi);
     }
-    console.log(`Estado actual de los taxis: ${JSON.stringify(taxis)}`);
+
+    if (taxi) {
+      console.log(
+        `Current Taxi State = ID: ${taxi.id}, POS X: ${taxi.x}, POS Y: ${taxi.y}, AVAILABILITY: ${taxi.libre}, SERVICES: ${taxi.numberOfServices}`
+      ); // Print the updated taxi information
+    } else {
+      console.log(
+        `Taxi data could not be processed: ${JSON.stringify(taxiData)}`
+      );
+    }
   }
 }
 
@@ -60,11 +74,11 @@ async function handleUserRequests() {
     const { userId, userX, userY } = JSON.parse(msg.toString());
 
     console.log(
-      `Solicitud recibida de usuario ${userId} en (${userX}, ${userY})`
+      `Request obtained by the user ${userId} at (${userX}, ${userY})`
     );
-    console.log(
-      `Estado actual de los taxis antes de asignar: ${JSON.stringify(taxis)}`
-    );
+    // console.log(
+    //   `Estado actual de los taxis antes de asignar: ${JSON.stringify(taxis)}`
+    // );
 
     // Buscar taxi disponible más cercano
     let taxiAsignado = null;
@@ -87,7 +101,7 @@ async function handleUserRequests() {
 
     if (taxiAsignado) {
       taxiAsignado.libre = 0; // Marcar el taxi como ocupado
-      console.log(`Taxi ${taxiAsignado.id} asignado al usuario ${userId}`);
+      console.log(`Taxi ${taxiAsignado.id} assigned to the user ${userId}.`);
 
       // Send notification to the assigned taxi
       await publisher.send(
@@ -108,13 +122,13 @@ async function handleUserRequests() {
         })
       );
     } else {
-      console.log(`No hay taxis disponibles para el usuario ${userId}`);
+      console.log(`There are not taxis availble for the user: ${userId}.`);
 
       // Responder con un mensaje de rechazo
       await sock.send(
         JSON.stringify({
           success: false,
-          message: "No hay taxis disponibles en este momento.",
+          message: "There are not taxis available at the moment.",
         })
       );
     }
@@ -125,7 +139,7 @@ async function handleUserRequests() {
 async function handleTaxiNotifications() {
   for await (const [msg] of notificationSock) {
     const { id, port } = JSON.parse(msg.toString());
-    console.log(`Notificación recibida: Taxi ${id} en el puerto ${port}`);
+    console.log(`Notification received: Taxi ${id} on ${port}`);
 
     // Connect the Subscriber socket to the taxi's port
     subscriber.connect(`tcp://localhost:${port}`);
@@ -146,6 +160,6 @@ async function handleTaxiNotifications() {
       handleTaxiNotifications(),
     ]);
   } catch (error) {
-    console.error("Error en el servidor:", error);
+    console.error("Server error:", error);
   }
 })();

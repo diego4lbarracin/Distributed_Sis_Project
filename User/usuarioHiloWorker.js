@@ -8,7 +8,7 @@ async function solicitarTaxi(userId, x, y) {
   sock.connect("tcp://localhost:3000"); // Connect to the server at localhost on port 3000
 
   console.log(
-    `Hilo: ${threadId} - Usuario ${userId} solicitando taxi desde (${x}, ${y})...`
+    `Thread: ${threadId} - User ${userId} requesting a taxi from: (${x}, ${y})...`
   );
   const startTime = Date.now(); // Record the start time of the request
   await sock.send(JSON.stringify({ userId, userX: x, userY: y })); // Send the user data to the server
@@ -24,7 +24,7 @@ async function ejecutarUsuario() {
   const { userId, x, y, tiempoEspera } = workerData; // Extract user data from workerData
 
   console.log(
-    `Hilo: ${threadId} - Usuario ${userId} esperando ${tiempoEspera} segundos antes de solicitar un taxi.`
+    `Thread: ${threadId} - User ${userId} waiting ${tiempoEspera} seconds before requesting a taxi.`
   );
   await new Promise((resolve) => setTimeout(resolve, tiempoEspera * 1000)); // Wait for the specified time before requesting a taxi
 
@@ -32,15 +32,15 @@ async function ejecutarUsuario() {
     const { data: respuesta, responseTime } = await solicitarTaxi(userId, x, y); // Request a taxi and get the response
     if (respuesta.success) {
       console.log(
-        `Hilo: ${threadId} - Usuario ${userId} ha recibido el taxi con ID ${respuesta.taxiId}. Distancia: ${respuesta.distancia} km. Tiempo de respuesta del servidor: ${responseTime} ms`
+        `Thread: ${threadId} - User ${userId} has received a taxi with id ${respuesta.taxiId}. Distance: ${respuesta.distancia} km. Server's response time: ${responseTime} ms`
       );
     } else {
       console.log(
-        `Hilo: ${threadId} - Usuario ${userId} no pudo recibir un taxi: ${respuesta.message}`
+        `Thread: ${threadId} - User ${userId} couldn't receive a taxi: ${respuesta.message}`
       );
     }
   } catch (error) {
-    console.error(`Error en la solicitud del usuario ${userId}:`, error); // Log any errors
+    console.error(`Error in the user's ${userId} request:`, error); // Log any errors
   } finally {
     // Notify that the user's task is complete
     parentPort.postMessage({ userId, completado: true });
