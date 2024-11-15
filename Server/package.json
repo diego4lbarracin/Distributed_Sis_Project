@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "express": "^4.21.1",
+    "zeromq": "^6.1.2"
+  }
+}

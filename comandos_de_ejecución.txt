@@ -1,0 +1,16 @@
+Usuario:
+node generadorUsuarios.js 8 10 10 10 coordenadas.txt
+
+Servidor:
+node server.js
+
+Taxi:
+node Taxi.js 10 10 info_taxis.txt
+
+Note: Make sure to delete the UsersRecords.txt and TaxiProcces.txt files before running the 
+program, otherwise, the results will be appended to the end of the existing information.
+
+Servidor: 10.43.100.93
+Taxi: 10.43.101.15
+Usuario: 10.43.101.20
+Servidor de Respaldo: 10.43.102.178
